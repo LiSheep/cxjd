@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="core"/>
+	<classpathentry kind="src" path="config"/>
+	<classpathentry kind="src" path="user"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="src" path="login"/>
+	<classpathentry kind="src" path="main"/>
+	<classpathentry kind="src" path="role"/>
+	<classpathentry kind="src" path="news"/>
+	<classpathentry kind="src" path="tool"/>
+	<classpathentry kind="src" path="adminconfig"/>
+	<classpathentry kind="src" path="item"/>
+	<classpathentry kind="src" path="sfile"/>
+	<classpathentry kind="src" path="downxls"/>
+	<classpathentry kind="src" path="organizer"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_6_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

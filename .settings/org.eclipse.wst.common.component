@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="cxjd">
+        <wb-resource deploy-path="/" source-path="/WebRoot"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/core"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/config"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/user"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/test"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/login"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/main"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/role"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/news"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/tool"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/adminconfig"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/item"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/sfile"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/downxls"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/organizer"/>
+        <property name="context-root" value="/cxjd"/>
+        <property name="java-output-path" value="/cxjd/WebRoot/WEB-INF/classes"/>
+    </wb-module>
+</project-modules>
