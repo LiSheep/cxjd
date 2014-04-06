@@ -1,0 +1,188 @@
+/**
+* SNS 登录页样式
+* author: Charles Wu
+* version: 1.0
+*/
+
+/*框架*/
+body { background-color: #e0f4ff;}
+.f-page { width: 980px; margin: 0 auto;}
+.f-full-page { width: 100%; background:#e0f4ff url(../images/f-full-page.jpg) no-repeat 50% 0;}
+.f-full-page .f-header,
+.f-full-page .f-body { width: 980px; margin: 0 auto;}
+.f-body .f-body-wrapper {
+    border:1px solid #b1cde8;
+    background:#fff url(../images/f-body-wrapper.png) repeat-y 100% 0;
+    padding: 14px;
+}
+.f-body .f-col-main, .f-body .f-col-sub, .f-body .f-col-ext { float: left;}
+.f-body .f-col-main { width: 220px;}
+.f-body .f-col-sub { width: 425px; padding: 0 10px;}
+.f-body .f-col-ext { width: 269px; padding-left: 10px;}
+/*首页两栏*/
+.f-col2 .f-body-wrapper { background-image: url(../images/f-body-wrapper2.png);}
+.f-col2 .f-col-sub { width: 734px; padding-right: 0; margin: -15px -31px 0 0;}
+
+/*模块-base*/
+.box { position: relative;}
+.box .hd { height: 27px; padding-left: 10px; margin-bottom: -1px;}
+.box .hd .tab-holder { position: relative; z-index: 10;}
+.box .hd .tab-holder li, .box .hd .tab-holder li a { float: left;}
+.box .hd .tab-holder li { margin-right: 4px;}
+.box .hd .tab-holder li a {
+    width: 75px;
+    height: 25px;
+    color: #005eac;
+    line-height: 25px;
+    background-color: #e3eef8;
+    margin: 1px;
+    text-align: center;
+}
+.box .hd .tab-holder .current a {border:1px solid #a0bedc; border-bottom-color: #fff; background-color: #fff; color: #000; margin:0;}
+.box .bd { border-top: 1px solid #a0bedc; padding: 10px;}
+
+/*信息列表*/
+.info-list { position: relative;}
+.info-list li { padding: 4px 0 4px 12px; background: url(../images/gray-dot.png) no-repeat 0 50%;}
+
+/*页头*/
+.f-header { height: 78px;}
+.f-header .logo { width: 187px; height: 47px; padding: 25px 0 0 9px;}
+.f-header .top-links { float: right; padding-right: 9px; margin-top: -16px;}
+.f-header .top-links a { margin-right: 9px; color:#000;}
+
+/*主体-左侧-用户登录*/
+.member-entry { border: 1px solid #b8d4e8; padding: 8px 10px; background-color: #f0f5f8;}
+.member-entry .usr-field label,
+.member-entry .pwd-field label {
+    display: block;
+    height: 29px;
+    line-height: 29px;
+    font-size: 14px;
+    color: #333;
+}
+.member-entry .usr-field input,
+.member-entry .pwd-field input {
+    width: 192px; height: 26px; line-height: 26px; padding: 0 2px; border:1px solid #bdc7d8;
+}
+.member-entry .opt-field { padding: 10px 0;}
+.member-entry .opt-field .auto-entry { float: left;}
+.member-entry .opt-field .forget-pwd { float: right; margin-top: 2px;}
+.member-entry .submit-field {}
+.member-entry .submit-field button { float: left; width:105px; height: 32px; padding: 0; border: 0; background: url(../images/submit-btn.png) no-repeat 0 0; color: #fff;}
+.member-entry .submit-field .register { float: right; _display: inline; font-size: 14px; margin:5px 5px 0 0;}
+/*主体-左侧-注册*/
+.register { border: 1px solid #b8d4e8; border-top: 0; background-color: #e0f4ff; padding: 10px 10px 10px 20px; width: 188px; overflow: hidden;}
+.register a { float: left; width: 82px; height: 26px; overflow: hidden; line-height: 26px; text-align: center; background: url(../images/register-btn.png) no-repeat 0 0; margin-right: 10px;}
+/*主体-左侧-提示*/
+.entry-notes { border: 1px solid #b8d4e8; border-top: 0; background-color: #f4f8fa; padding: 10px; height: 230px;}
+.entry-notes h4 { padding: 10px 0 10px 0; font-size: 14px; font-weight: normal;}
+.entry-notes p { text-indent: 1.5em; line-height: 24px;}
+/*主体-中-顶部广告*/
+.ad-420x280 { width: 420px; height: 280px; overflow: hidden; margin: 0 auto; margin-bottom: 30px;}
+/*主体-中-热门tab模块*/
+.hot-box {}
+/*主体-右侧-app模块*/
+.app-box h4 { padding: 20px 0 10px 10px; font-size: 14px; font-weight: normal;}
+.app-list { padding-left: 10px}
+.app-list li { float: left; padding: 10px 0;}
+.app-list li a { float: left; width: 80px;}
+.app-list li a img { display: block; width: 60px; height: 60px; margin: 0 auto 5px; overflow: hidden;}
+.app-list li a span { display: block; text-align: center; font-size: 14px;}
+/*两栏-右侧-app介绍模块*/
+.app-intro h4 { height: 33px; padding-left: 20px; line-height: 33px; font-size: 14px; color: #fff; background-color: #3f92d9; border-bottom: 3px solid #3274be;}
+.app-intro .app-bd { border-top: 1px solid #d8d8d8;}
+.app-intro .app-nav { float: left; width: 128px; }
+.app-intro .app-nav li { margin-top: -1px;}
+.app-intro .app-nav li a { border:1px solid #d8d8d8; display: block; height: 38px; padding-left: 40px; line-height: 38px; color: #005eac; font-size: 14px;}
+.app-intro .app-nav .active a { color: #cc3333; font-weight: bold; border-right-color: #f6f6f6; background: #f6f6f6 url(../images/app-nav-active.png) no-repeat 28px 50%;}
+.app-intro .app-content { float: left; width: 586px; padding: 20px 10px 10px;}
+.app-intro .app-content h1 { font-size: 14px; text-align: center; padding-bottom: 30px;}
+.app-intro .app-content img { margin: 0 auto 30px; border:1px solid #ccc; display: block;}
+.app-intro .app-content p { padding-bottom: 10px; text-indent: 2em; line-height: 1.8;}
+/*页尾*/
+.f-footer { text-align: center; padding: 40px;}
+
+/*好友页弹出好友列表引用 author charles wu {*/
+
+/*friendSelect for Edit
+----------------------------*/
+.friendSelectorBox h3 { font-size: 14px; font-weight: normal; padding: 10px; color: #555;}
+.friendSelectorBox .selector{ border:1px solid #ccc;background-color:#fff;height:145px;overflow:scroll;overflow-x:hidden;margin-bottom:5px;}
+.friendSelectorBox .selector .list-more { float: left; height: 40px; padding-top: 24px; padding-left: 8px;}
+.friendSelectorBox .selector ul{padding:0.5em;}
+.friendSelectorBox .selector ul li{ width:134px;height:64px;overflow:hidden;float:left; border:0 ;padding:0;margin:3px;margin-right:3px;}
+
+.friendSelectorBox .selector ul li a{ display:block;height:64px;padding:4px;}
+.friendSelectorBox .selector ul li a:hover{ text-decoration:none;background:url(http://a.xnimg.cn/img/friend_selector_hover_bg.gif) top left no-repeat;}
+
+.friendSelectorBox .selector ul li a:hover h4{ color:#333;}
+.friendSelectorBox .selector ul li a:hover span.atnet{ color:#666;}
+
+.friendSelectorBox .selector ul li a:hover span.picbox{ background-color:#fff;}
+
+.friendSelectorBox .selector ul li a h4{ color:#333; margin-bottom:2px;}
+.friendSelectorBox .selector ul li a span.atnet{ color:#ccc;}
+
+.friendSelectorBox .selector ul li a span.picbox{ width:50px;height:50px;padding:2px;margin-right:3px;border:1px #ccc solid;float:left;border-color:#b1c1e1;}
+
+.friendSelectorBox .selector ul li a span.picbox span.pic{ background-color:#fff;width:50px;height:50px;display:block;}
+
+.friendSelectorBox .selector ul li a span.picbox img{}
+
+.friendSelectorBox .selector ul li a span.picbox img.added{ display:none;}
+
+.friendSelectorBox .selector ul li a .desc { color: #ccc;}
+
+.friendSelectorBox .selector ul li.select,
+.friendSelectorBox .selector ul li.select a:hover{ background:url(http://a.xnimg.cn/img/friend_selector_bg.gif) top left no-repeat;}
+.friendSelectorBox .selector ul li.select a h4,
+.friendSelectorBox .selector ul li.select a:hover h4{ color:#fff;}
+.friendSelectorBox .selector ul li.select a:hover span.atnet{ color:#ccc;}
+.friendSelectorBox .selector ul li.select a span.picbox,
+.friendSelectorBox .selector ul li.select a:hover span.picbox{ background:#8497C0;}
+.friendSelectorBox .selector ul li.select a span.picbox span.pic{ background-position:center;background-repeat:no-repeat;width:50px;height:50px;}
+.friendSelectorBox .selector ul li.select a span.picbox span.pic img.added{ display:block;padding-top:37px;}
+
+/*--2009.1.9new friends selector  --*/
+.allfriendslist{ border-top: 1px #CEE1EE solid;background-color:#E3EEF8;}
+.friendsgroup-sidebar{background-color:#E3EEF8;}
+.friendSelectorBox .selectfilter {line-height:22px;margin-bottom:10px;}
+
+.n-f-s{}
+.n-f-s strong{font-size:14px;font-weight:lighter;display:block;float:left}
+.n-f-s .function {float:left;width:50%;color:#808080;}
+.n-f-s .function span {display:block;float:left;margin-right:20px;line-height:25px;}
+.n-f-s .function .function_nav_up a,.school-list .function_nav_down a {width:66px;height:25px;line-height:25px;padding:0 0 0 6px;}
+.n-f-s .function .function_nav_up a {display:block;background:url(http://a.xnimg.cn/imgpro/bg/function_nav_up.gif) no-repeat 60px 10px;}
+.school-list .function_nav_down {background:url(http://a.xnimg.cn/imgpro/bg/function_nav_bg.gif) no-repeat right bottom;}
+.school-list .function_nav_down a {line-height:25px;display:block;background:url(http://a.xnimg.cn/imgpro/bg/function_nav_down.png) no-repeat left top;}
+.school-list {width:138px;position:absolute;}
+.school-list .school-list_title {border-bottom:1px #CCCCCC solid;color:#888888;margin-bottom:5px;padding:5px 0 8px;}
+.school-list ul {overflow-x:hidden;overflow-y:scroll;border:1px #3777BC solid;border-top:none;padding:0 4px 0 6px;background-color:#ffffff;height:207px;}
+.school-list li {height:19px;line-height:19px;overflow:hidden;}
+.school-list li a:link {color:#000000;text-decoration:none;}
+.school-list li a:visited {color:#000000;text-decoration:none;}
+.school-list li a:hover {text-decoration:underline;}
+
+.state {float:right;width:49%;margin-bottom:5px;}
+.state ul {list-style:none;}
+.state li {display:inline;padding:0;margin: 0;}
+.state a {float:right;text-decoration:none;padding:0 0 0 3px;margin: 0 5px 0 0;}
+.state a span {float:left;display:block;padding: 0px 7px 0px 5px;line-height:19px;}
+.state a span {float:none;}
+*+html .state a span {line-height:21px;}
+.state a:hover span {text-decoration: none;color:#FFFFFF;background:url(http://a.xnimg.cn/imgpro/bg/friends_selecot_state_R.gif) no-repeat right top;}
+.state a:hover {background:url(http://a.xnimg.cn/imgpro/bg/friends_selecot_state_L.gif) no-repeat left top;}
+.state a:hover span {}
+.state .onstate a {color:#FFFFFF;background:url(http://a.xnimg.cn/imgpro/bg/friends_selecot_state_L.gif) no-repeat left top;line-height:14px;}
+.state .onstate a:hover{text-decoration:none}
+.state .onstate span{background:url(http://a.xnimg.cn/imgpro/bg/friends_selecot_state_R.gif) no-repeat right top;color:#fff}
+.state em{font-style:inherit;font-weight:inherit}
+
+.closebnt a {background:url(http://a.xnimg.cn/imgpro/bg/close_window.gif) no-repeat left top;width:17px;height:17px;display:block;}
+.closebnt a:hover {background:url(http://a.xnimg.cn/imgpro/bg/close_window.gif) no-repeat left bottom;}
+.selectorclose {background-color:#F6F6F6;padding:3px;}
+#sub-nav {padding-left:10px;}
+
+/*}*/

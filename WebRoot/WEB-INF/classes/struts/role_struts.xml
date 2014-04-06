@@ -1,0 +1,21 @@
+<?xml 
+version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="Role" extends="cxjd-default" namespace="/">
+		<action name="*Role" class="com.cxjd.action.role.RoleAction" method="{1}">
+			<result name="list">/modules/role/listRoleUI.jsp</result>
+			<result name="addinput">/modules/role/addRoleUI.jsp</result>
+			<result name="updateinput">/modules/role/updateRoleUI.jsp</result>
+			<result name="input">/modules/role/{1}RoleUI.jsp</result>
+			<result name="add" type="redirect">inputRole.action</result>
+			<result name="update" type="redirect">inputRole.action</result>
+			
+			<interceptor-ref name="mAuthAdmin"/>
+			
+		</action>
+	</package>
+</struts>

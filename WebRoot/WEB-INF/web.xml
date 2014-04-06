@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>	
+  <welcome-file-list>
+    <welcome-file>login.action</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>DownExcel</servlet-name>
+    <servlet-class>com.cxjd.servlets.down.DownExcel</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DownExcel</servlet-name>
+    <url-pattern>/servlet/DownExcel</url-pattern>
+  </servlet-mapping>
+  	<filter>
+		<filter-name>struts2</filter-name>
+		<filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+		<init-param>
+			<param-name>includeServlets</param-name>
+			<param-value>DownExcel</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>struts2</filter-name>
+		<url-pattern>*.action</url-pattern>
+	</filter-mapping>
+	
+  	<filter>
+		<filter-name>jspFilter</filter-name>
+		<filter-class>com.cxjd.common.AuthFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>jspFilter</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+
+</web-app>

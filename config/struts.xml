@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<constant name="struts.ognl.allowStaticMethodAccess" value="true"></constant>
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<constant name="struts.multipart.saveDir " value="d:/tmp" />
+	<constant name="struts.multipart.maxSize" value="40960000"/>
+	
+	<package name="cxjd-default" extends="struts-default">
+		
+		<interceptors>  
+            <interceptor name="authorityAdmin"  
+                class="com.cxjd.interceptor.UserAdminInterceptor" />  
+            <interceptor name="authorityStu"  
+                class="com.cxjd.interceptor.UserStuInterceptor" />  
+            <interceptor name="authorityGeneral"  
+                class="com.cxjd.interceptor.UserInterceptor" />  
+			<interceptor name="authorityTeacher"  
+                class="com.cxjd.interceptor.UserTeaInterceptor" />  
+
+
+            <!-- 拦截器栈 -->  
+            <interceptor-stack name="mAuthStu">  
+                <interceptor-ref name="defaultStack" />  
+                <interceptor-ref name="authorityGeneral" />  
+                <interceptor-ref name="authorityStu" />  
+            </interceptor-stack>  
+            
+            <interceptor-stack name="mAuthAdmin">  
+                 
+                <interceptor-ref name="authorityGeneral" />  
+				<interceptor-ref name="authorityAdmin" />
+				<interceptor-ref name="defaultStack" /> 
+            </interceptor-stack>  
+            
+            <interceptor-stack name="mAuthTeacher">  
+                <interceptor-ref name="authorityGeneral" />  
+				<interceptor-ref name="authorityTeacher" />
+				<interceptor-ref name="defaultStack" /> 
+            </interceptor-stack> 
+            
+            <interceptor-stack name="mAuthGeneral">  
+                <interceptor-ref name="defaultStack" />  
+                <interceptor-ref name="authorityGeneral" />  
+            </interceptor-stack>  
+        </interceptors>  
+        
+		
+		<global-results>
+			<result name="no.access" type="redirect">login.action</result>
+			<result name="access" type="redirect">listSchoolNews.action</result>
+		</global-results>
+		<!-- 用户登陆、注册、登出 -->
+		<action name="login" class="com.cxjd.action.login.LoginAction" method="login" >
+			<result name="no.access">/modules/login/login.jsp</result>
+		</action>
+		<action name="logout" class="com.cxjd.action.login.LoginAction" method="logout" >
+		</action>
+		<action name="register" class="com.cxjd.action.login.LoginAction" method="register">
+			<result name="register">/modules/user/register.jsp</result>
+		</action>
+		<action name="doregister" class="com.cxjd.action.login.LoginAction" method="doregister">
+			<result name="register">/modules/user/register.jsp</result>
+		</action>
+		<action name="changepass"  class="com.cxjd.action.login.LoginAction" method="changepass">
+			<result name="changepass">/modules/login/changepassUI.jsp</result>
+		</action>
+		<action name="dochangepass"  class="com.cxjd.action.login.LoginAction" method="dochangepass">
+			<result name="changepass">/modules/login/changepassUI.jsp</result>
+		</action>
+	</package>
+
+	<include file="struts/user_struts.xml" />
+	<include file="struts/role_struts.xml" />
+	<include file="struts/organizer_struts.xml" />
+	<include file="struts/main_struts.xml" />
+	<include file="struts/news_struts.xml" />
+	<include file="struts/tool_struts.xml" />
+	<include file="struts/item_struts.xml" /> 
+	<include file="struts/sfile_struts.xml" /> 
+	
+</struts>

@@ -1,0 +1,81 @@
+[system]
+version=1.0
+nFireWall=13;
+
+[firewall_1]
+Name=PC Tools Firewall
+nPicCount=4
+fileNameBase=pctools
+Process=FirewallGUI.exe;FWService.exe;
+
+[firewall_2]
+Name=ZoneAlarm Pro
+nPicCount=3
+fileNameBase=ZoneAlarm
+Process=zlclient.exe;
+
+[firewall_3]
+Name=Outpost Firewall Pro
+nPicCount=1
+fileNameBase=Outpost
+Process=op_mon.exe;
+
+[firewall_4]
+Name=VisNetic Firewall
+nPicCount=2
+fileNameBase=VisNetic
+Process=DFW.exe;      
+
+[firewall_5]
+Name=Privatefirewall
+nPicCount=3
+fileNameBase=Privatefirewall
+Process=PFGUI.exe;pfsvc.exe
+
+[firewall_6]
+Name=Netveda
+nPicCount=1
+fileNameBase=Netveda
+Process=ipcLAM.exe;ipcsvc.exe;  
+
+[firewall_7]
+Name=McAfee Desktop Firewall
+nPicCount=1
+fileNameBase=McAfee
+Process=firetray.exe;        
+
+[firewall_8]
+Name=Avira Premium Security Suite
+nPicCount=3
+fileNameBase=Avira
+Process=avgnt.exe;
+
+[firewall_9]
+Name=ESET Smart Security
+nPicCount=1
+fileNameBase=nod32
+Process=ekrn.exe; 
+
+[firewall_10]
+Name=¿¨°ÍË¹»ù·À»ðÇ½
+nPicCount=8
+fileNameBase=Kaspersky
+Process=avp.exe;     
+
+[firewall_11]
+Name=Åµ¶Ù·À»ðÇ½
+nPicCount=3
+fileNameBase=norton
+Process=SymCorpUI.exe;
+
+[firewall_12]
+Name=Ìì°Ô·À»ðÇ½
+nPicCount=2
+fileNameBase=tianba
+Process=Netfree.exe;
+
+[firewall_13]
+Name=½ðÉ½ÍøïÚ
+nPicCount=3
+fileNameBase=Jinshanwangbiao
+Process=kpfwfrm.exe;

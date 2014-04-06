@@ -1,0 +1,21 @@
+<?xml 
+version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="Organizer" extends="cxjd-default" namespace="/">
+		<action name="*Organizer" class="com.cxjd.action.organizer.OrganizerAction" method="{1}">
+			<result name="list">/modules/organizer/listOrganizerUI.jsp</result>
+			<result name="addinput">/modules/organizer/addOrganizerUI.jsp</result>
+			<result name="updateinput">/modules/organizer/updateOrganizerUI.jsp</result>
+			<result name="input">/modules/organizer/{1}OrganizerUI.jsp</result>
+			<result name="add" type="redirect">inputOrganizer.action</result>
+			<result name="update" type="redirect">inputOrganizer.action</result>
+			
+			<interceptor-ref name="mAuthAdmin"/>
+			
+		</action>
+	</package>
+</struts>

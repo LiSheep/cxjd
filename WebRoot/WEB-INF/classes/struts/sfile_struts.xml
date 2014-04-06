@@ -1,0 +1,37 @@
+<?xml 
+version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="sfile" extends="cxjd-default" namespace="/">
+		<action name="*Sfile" class="com.cxjd.actiom.sfile.SfileAction" method="{1}" >
+		
+			<param name="savePath">/attach/</param>
+		
+			<result name="list">/modules/sfile/listSfileUI.jsp</result>
+			<result name="addinput">/modules/sfile/addSfileUI.jsp</result>
+			<result name="updateinput">/modules/sfile/showSfileUI.jsp</result>
+			<result name="show">/modules/sfile/showSfileUI.jsp</result>
+			<result name="add">/modules/sfile/addSfileUI.jsp</result>
+			<result name="update" type="redirect">listSfile.action</result>
+			<result name="delete" type="redirect">listSfile.action</result>
+			<result name="input">/modules/sfile/{1}SfileUI.jsp</result>
+            <result name="down" type="stream">
+            	<param name="contentType">{fileType}</param>
+            	<param name="contentDisposition">attachment;filename="${fileOldName}"</param>
+            	<param name="bufferSize">4096</param>
+            	<param name="inputName">downloadFile</param>
+            </result>
+            
+            <!-- 默认拦截器必须放在fileUpload之后，否则无效 -->
+            <interceptor-ref name="defaultStack" />
+			
+			<interceptor-ref name="mAuthStu" />
+			<interceptor-ref name="authorityTeacher">
+				<param name="excludeMethods">list,down,show</param>
+			</interceptor-ref>
+		</action>
+	</package>
+</struts>

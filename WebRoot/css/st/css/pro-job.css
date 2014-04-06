@@ -1,0 +1,76 @@
+/*
+名称: 发起项目&&企业招聘-样式表
+作者: 段冶
+日期: 2012/5/3
+*/
+
+/* 发起项目
+-------------------------------------------------------------- */
+.pro_box{padding-top:10px;}
+.pro_box .hd{border-bottom:1px solid #CEE1EE;border-top:1px solid #CEE1EE;}
+.pro_box .hd h3{background:#E3EEF8;color:#000;height:25px;line-height:25px;padding-left:20px;}
+.pro_box .bd{padding:10px 20px;}
+.pro_box .bd dt{padding-left:10px;color:#005EAC;font-weight:bold;}
+.pro_box .bd dd{padding:10px;}
+.more_pro{padding:0px 0 40px 0;}
+.more_pro a{background-color: #F0F5F8; border: 1px solid #CEE1EE; display: block; font-size: 16px; font-weight: bold;  padding: 10px; text-align: center;}
+.more_pro a:hover{background-color: #e3eef8;text-decoration:none; }
+.journal{padding-left:120px;border-bottom:1px solid #D9DCE2;margin-bottom:20px;}
+.journal .avt{position:absolute;margin-left:-120px;}
+
+/* 企业招聘
+-------------------------------------------------------------- */
+.job_list{border:1px solid #CEE1EE;height:auto !important;height:600px;min-height:600px;}
+.job_list td{padding-left:20px;height:35px;line-height:35px;}
+.job_list thead td{background:#e3eef8;font-size:14px;font-weight:bold;}
+.trB_2 td{background:#F0F5F8;}
+.jobT{font-weight:bold;}
+.job_list tbody td{}
+.br{border:1px solid #CEE1EE;border-top:0 none;}
+
+/* 职位搜索
+------------------------------- */
+#job_search{background:#f4f7f8;border:1px solid #CEE1EE;padding:20px 40px;text-align:center;border-bottom:0 none;}
+#job_search span{font-weight:bold;font-size:14px;color:#005EAC;margin-right:10px;}
+#job_search .txt{width:220px;margin-right:10px;border:1px solid #B8D4E8;background:#fff;padding: 0 2px 0 10px !important;height:21px;line-height:21px;}
+#job_search .btn{background-color: #005EAC;border-color: #B8D4E8 #114680 #114680 #B8D4E8; border-style: solid; border-width: 1px; color: #FFFFFF; cursor: pointer; padding: 2px 20px !important;_padding: 2px 10px !important;}
+
+
+/* 分页
+-------------------------------------------------------------- */
+.pages {
+	TEXT-ALIGN: center;  PADDING-LEFT: 3px; PADDING-RIGHT: 3px; padding:10px 0;
+}
+.pages A {
+	BORDER-BOTTOM: #eee 1px solid; BORDER-LEFT: #eee 1px solid; PADDING-BOTTOM: 2px; MARGIN: 2px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #036cb4; BORDER-TOP: #eee 1px solid; BORDER-RIGHT: #eee 1px solid; TEXT-DECORATION: none; PADDING-TOP: 2px
+}
+.pages A:hover {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; COLOR: #666; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+.pages A:active {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; COLOR: #666; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+.pages .current {
+	BORDER-BOTTOM: #036cb4 1px solid; BORDER-LEFT: #036cb4 1px solid; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #036cb4; MARGIN: 2px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #fff; BORDER-TOP: #036cb4 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #036cb4 1px solid; PADDING-TOP: 2px
+}
+.pages .disabled {
+	BORDER-BOTTOM: #eee 1px solid; BORDER-LEFT: #eee 1px solid; PADDING-BOTTOM: 2px; MARGIN: 2px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #ddd; BORDER-TOP: #eee 1px solid; BORDER-RIGHT: #eee 1px solid; PADDING-TOP: 2px
+}
+
+
+/* 职位弹出页
+-------------------------------------------------------------- */
+.job_pop{padding:10px 20px;}
+#job_tit{border-bottom: 1px solid #B8D4E8;color: #000000;font-size: 16px;font-weight: bold; height: 25px; padding-left: 15px; vertical-align: top;margin-bottom:10px;}
+#job_tit h1{font-size:16px;}
+.companyInfoTab,.jobInfoTab{padding:0 20px;}
+.companyTit{padding:5px 0;font-size:14px;font-weight:bold;color:#336699;}
+.companyInfoTab td{line-height:150%;}
+.companyInfoTab tbody th{width:70px;}
+.jobInfoTab{border:1px solid #B8D4E8;margin-top:10px;}
+.jobInfoTab .title{color: #005EAC;font-size: 12px; font-weight: bold;}
+.jobInfoTab tr{height:24px;}
+.applyButton{background-color: #005EAC;border-color: #B8D4E8 #114680 #114680 #B8D4E8; border-style: solid; border-width: 1px; color: #FFFFFF; cursor: pointer; padding: 2px 25px !important;}
+.jobInfoTab .bgTitle{background:#005EAC;color: #fff; font-size: 12px; font-weight: bold; height: 24px;line-height:24px; padding-left:10px;margin:10px 0;}
+.jobDes{padding:10px;}
+

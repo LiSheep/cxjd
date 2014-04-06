@@ -1,0 +1,24 @@
+<?xml 
+version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="User" extends="cxjd-default" namespace="/">
+		<action name="*User" class="com.cxjd.action.user.UserAction" method="{1}">
+			<result name="list">/modules/user/listUserUI.jsp</result>
+			<result name="addinput">/modules/user/addUserUI.jsp</result>
+			<result name="updateinput">/modules/user/updateUserUI.jsp</result>
+			<result name="input">/modules/user/{1}UserUI.jsp</result>
+			<result name="add" type="redirect">inputUser.action</result>
+			<result name="update" type="redirect">inputUser.action</result>
+			
+			
+			
+			<interceptor-ref name="mAuthAdmin">
+			</interceptor-ref>
+			
+		</action>
+	</package>
+</struts>

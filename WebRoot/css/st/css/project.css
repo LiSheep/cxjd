@@ -1,0 +1,85 @@
+
+		.project_box{padding:6px;color:#333;width:730px;margin:0 auto;overflow:hidden;}
+		.pt_txtInfo{padding:20px 20px 20px 200px;background:#F0F5F8;border:1px solid #CEE1EE;height:240px;overflow:hidden;}
+		.pt_list{width:145px;position:absolute;margin-left:-180px;}
+		.pt_list p{height:25px;line-height:25px;border-bottom:1px solid #C7C7C7;padding-left:5px;}
+		.pt_list img{border:1px solid #CEE1EE;padding:4px;background:#fff;}
+		.pt_detailed{margin-bottom:20px;}
+		.pt_detailed label{display:block;}		
+		.pt_detailed .br{background:#eef3f6;color:#333;padding:6px;}
+		.pt_detailed .con{background:#fdfdfd;color:#333;border:1px solid #B8D4E8;padding:6px;}
+		.pt_imgList{width:510px;margin-bottom: 30px;}
+		.clearBox_40{clear:both;font-size:0;height:40px;line-height:40px;}
+		.pt_detailed h2,.pt_list b{font-size:14px;font-weight:bold;color:#369;}
+		#apply_btn{background:url(../images/project_btn_bg.png) no-repeat;width:118px;height:36px;display:block;margin:0 auto;}
+		#apply_btn.unusable{background-position:-119px 0;cursor:default;}
+		.pt_detailed h2{margin-bottom:5px;}
+		
+
+	a.abtn{
+	position:absolute;
+	top:35px;
+	display:block;
+	height:100px;
+	width:29px;	
+	overflow:hidden;
+
+}
+a.aleft{
+	background: url(../images/arrow_lf.png) no-repeat 50% 50%;
+	left:15px;
+}
+
+a.aright{
+	right:15px;
+	background: url(../images/arrow_rt.png) no-repeat 50% 50%;
+}
+
+
+.productshow{
+	width:500px;
+	height:150px;
+	padding:20px 0 0 0;	
+	position:relative;
+	text-align:center;
+	background:#fff;
+	border:1px solid #B8D4E8;
+}
+.productshow .scrollcontainer{
+	width:360px;
+	height:130px;
+	overflow:hidden;
+	position:relative;
+	margin:0 auto;
+}
+.productshow .scrollcontainer ul{
+	width:20000px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.productshow .scrollcontainer li{
+	float:left;
+	width:120px;
+	height:130px;
+	text-align:center;
+}
+.productshow .scrollcontainer li.last{
+	background:none;
+}
+.productshow .scrollcontainer li div{
+	height:130px;
+	width:120px;
+	overflow:hidden;
+	text-align:center;
+}
+.productshow .scrollcontainer a:hover img{
+	filter:alpha(opacity=86);-moz-opacity:0.86;opacity:0.86;
+}
+.productshow .scrollcontainer li p{
+	margin:0;
+	line-height:32px;
+}
+
+
+

@@ -1,0 +1,72 @@
+<?xml 
+version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+<!-- true为学校新闻 false为通知文件 -->
+	<package name="News" extends="cxjd-default" namespace="/">
+		<action name="*SchoolNews" class="com.cxjd.action.news.NewsAction" method="{1}" >
+			<!-- 如果页面Form表单的参数在Action类中有相应的setter方法，则会优先取页面Form表单传过来的值，
+				   如果页面没有该属性同名的参数，则会从配置文件中取同名的参数值作为它的默认值 -->
+			<param name="newsType">1</param>
+			<result name="list">/modules/news/school_news_listUI.jsp</result>
+			<result name="addinput">/modules/news/school_news_addUI.jsp</result>
+			<result name="updateinput">/modules/news/school_news_updateUI.jsp</result>
+			<result name="input">/modules/news/school_news_{1}UI.jsp</result>
+			<result name="add" type="redirect">listSchoolNews.action</result>
+			<result name="update" type="redirect">listSchoolNews.action</result>
+			<result name="delete" type="redirect">listSchoolNews.action</result>
+			<result name="detail">/modules/news/school_news_detailUI.jsp</result>
+			
+			<interceptor-ref name="defaultStack" />  
+			<interceptor-ref name="authorityGeneral">
+				<param name="excludeMethods">list,detail</param>
+			</interceptor-ref>  
+			<interceptor-ref name="authorityTeacher">
+				<param name="excludeMethods">list,detail</param>
+			</interceptor-ref>
+			
+		</action>
+		
+		<action name="*ReportNews" class="com.cxjd.action.news.NewsAction" method="{1}" >
+			<param name="newsType">2</param>
+			<result name="list">/modules/news/report_news_listUI.jsp</result>
+			<result name="addinput">/modules/news/report_news_addUI.jsp</result>
+			<result name="updateinput">/modules/news/report_news_updateUI.jsp</result>
+			<result name="input">/modules/news/report_news_{1}UI.jsp</result>
+			<result name="add" type="redirect">listReportNews.action</result>
+			<result name="update" type="redirect">listReportNews.action</result>
+			<result name="delete" type="redirect">listReportNews.action</result>
+			<result name="detail">/modules/news/report_news_detailUI.jsp</result>
+			
+			<interceptor-ref name="defaultStack" />  
+			<interceptor-ref name="authorityGeneral" />  
+			<interceptor-ref name="authorityTeacher">
+			<!-- list等方法不需要管理员权限 -->
+				<param name="excludeMethods">list,detail</param>
+			</interceptor-ref>
+		</action>
+		
+		<action name="*ItemNews" class="com.cxjd.action.news.NewsAction" method="{1}" >
+			
+			<param name="newsType">3</param>
+			<result name="list">/modules/news/item_news_listUI.jsp</result>
+			<result name="addinput">/modules/news/item_news_addUI.jsp</result>
+			<result name="updateinput">/modules/news/item_news_updateUI.jsp</result>
+			<result name="input">/modules/news/item_news_{1}UI.jsp</result>
+			<result name="add" type="redirect">listItemNews.action</result>
+			<result name="update" type="redirect">listItemNews.action</result>
+			<result name="delete" type="redirect">listItemNews.action</result>
+			<result name="detail">/modules/news/item_news_detailUI.jsp</result>
+			
+			<interceptor-ref name="defaultStack" />  
+			<interceptor-ref name="authorityGeneral" />  
+			<interceptor-ref name="authorityTeacher">
+				<param name="excludeMethods">list,detail</param>
+			</interceptor-ref>
+			
+		</action>
+	</package>
+</struts>

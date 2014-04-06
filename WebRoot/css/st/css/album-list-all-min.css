@@ -1,0 +1,972 @@
+/* import by . */
+.page-title {
+	padding: 10px 0;
+	*zoom: 1;
+}
+.page-title:after {
+	content: '\20';
+	clear: both;
+	display: block;
+}
+.page-title h1 {
+	float: left;
+	font-weight: bold;
+	font-size: 14px;
+}
+.page-title .icon {
+	vertical-align: middle;
+}
+.page-title .title-alt {
+	float: right;
+}
+
+
+
+/* import by . */
+/* 推荐 */
+.pymk-header,
+.pymk-body .recognize li{
+	*zoom:1;
+	overflow:hidden;
+}
+.pymk-header{
+	margin-bottom:8px;
+}
+.pymk-header h4{
+	float:left;
+	font-weight:bold;
+}
+.pymk-header .option{
+	text-align:right;
+}
+.pymk-body .recognize{
+	*zoom:1;
+}
+.pymk-body {
+	width: 240px;
+	overflow: hidden!important;
+	position: relative;
+}
+.pymk ul.recognize {
+	overflow: hidden;
+	list-style: none outside none;
+	width: 1920px;
+}
+.pymk ul.recognize div {
+	list-style: none outside none;
+}
+.pymk-body .recognize .group {
+	float: left;
+	width: 240px;
+	overflow: hidden;
+}
+.pymk-body .recognize li{
+	margin-bottom:5px;
+	position:relative;
+}
+.pymk-body .recognize p img{
+	text-align:text-bottom;
+	margin:0;
+}
+.pymk-body .shut-new{
+	display:none;
+	background:url(http://a.xnimg.cn/n/core/res/pymk/remove.png) 0 0 no-repeat;
+	width:13px;
+	height:13px;
+	overflow:hidden;
+	outline: 0 none;
+	position:absolute;
+	top:0;
+	right:0;
+}
+.pymk-body .x-to-hide {
+	background: url(http://a.xnimg.cn/imgpro/home/home_icon.png?ver=122) no-repeat scroll -63px -420px;
+    width: 14px;
+    text-decoration: none;
+    height: 14px
+}
+.pymk-body .x-to-hide:hover {
+	background-position:-63px -434px;
+	text-decoration:none;
+}
+.pymk-body .remove-tip {
+	position:absolute;
+	top:0;
+	right:0;
+}
+.pymk .recognize li span{
+	color:#888;
+}
+.pymk-body .shut:hover{
+	background-position:-13px 0;
+}
+.pymk .recognize li span.headpichold{
+	float:left; 
+	display:block; 
+	width:50px; 
+	height:50px; 
+	text-align:left; 
+	line-height:normal;
+	margin:0 5px 0 0;
+    overflow: hidden;
+}
+.pymk .recognize li span.headpichold a{
+	height:50px;
+	margin:0;
+}
+.pymk .recognize li span.headpichold img {
+    margin: 0;
+}
+.pymk .recognize li span a {
+	display: inline;
+	height:14px;
+	overflow:hidden;
+}
+.pymk .recognize li span a.name {
+	font-weight: bold;
+	width: 145px;
+	height: auto;
+}
+.pymk .recognize li p{
+	margin:3px 0 3px 55px;
+	*margin-left:0;
+	line-height:normal;
+}
+.pymk .comefrom{
+	border:1px solid #cee1ee;
+	padding:5px 10px;
+	background:#f3faff;
+	margin-top:5px;
+}
+.pymk .comefrom p{
+	margin-left:0!important;
+}
+.pymk .comefrom a {
+	display: inline;
+}
+.pymk .pager-back,
+.pymk .pager-forward,
+.pymk .more {
+	display: inline-block;
+	zoom: 1;
+	text-indent: -9999px;
+	outline: 0 none;
+	width: 25px;
+	height: 18px;
+	overflow: hidden;
+	background: url(http://a.xnimg.cn/imgpro/bg/newpager.png) no-repeat;
+}
+.pymk .pager-back {
+	background-position: 0px 0px;
+}
+.pymk .more{
+	background-position:0 -36px;
+}
+.pymk .more:hover{
+	background-position:0 -54px;
+}
+.pymk .pager-forward {
+	background-position: 0px -18px;
+	margin-left:-2px;
+	*margin:0 5px 0 5px;
+	*margin-left:-1px;
+}
+.pymk .pager-back:hover {
+	background-position: 0 -72px;
+}
+.pymk .pager-forward:hover {
+	background-position: 0px -90px;
+}
+.pymk .pager-back-disable,
+.pymk .pager-back-disable:hover {
+	background-position: 0 -108px;
+}
+.pymk .pager-forward-disable,
+.pymk .pager-forward-disable:hover {
+	background-position: 0px -126px;
+}
+.pymk .option{
+	visibility:hidden;
+}
+.pymk{behavior:expression(function(ele){ele.runtimeStyle.behavior='none';Expressions.pseudo.hover(ele, 'pymk_hover');}(this));}
+
+.pymk_hover .option,.pymk:hover .option{
+	visibility:visible;
+}
+.pymk .profile-label {
+	color: #666;
+	font-weight: bold;
+}
+.pymk-body a.reconnect {
+    background: url(http://a.xnimg.cn/imgpro/icons/reply-blue.gif) left center no-repeat;
+    padding-left: 18px;
+    outline: 0 none;
+}
+.pymk-body .reconnect-gossip {
+    clear: both;
+    background: #F0F5F8;
+    padding: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E3EEF8 #E3EEF8 #CEE1EE;
+    margin-top: 3px;
+}
+.pymk-body .reconnect-gossip textarea {
+    margin: 0;
+    width: 202px;
+}
+.pymk-body .reconnect-gossip .clearfix {
+    text-align: right;
+}
+.pymk-body .reconnect-gossip .clearfix label {
+    font-weight: normal;
+    color: #333;
+    margin-right: 5px;
+}
+.pymk-body .reconnect-gossip .clearfix label input {
+    margin-right: 2px;
+}
+
+/* 推荐UGC */
+.pymk .recognize li .ugc-type {
+	display: block;
+	color: #333;
+	margin-bottom: 2px;
+}
+.pymk .recognize li .ugc-type .icon {
+	margin-right: 5px;
+}
+.pymk .recognize li .ugc-title {
+	display: block;
+	padding-left: 18px;
+}
+
+
+/* import by . */
+/* frid-photo.css 首页好友照片模块  by libin*/
+.friend-photo .side-item-header {padding:0 0 8px;text-align:right;} 
+    .friend-photo h4 {float:left;color:#333;font-weight:bold;}
+    .friend-photo .pager-back,
+    .friend-photo .pager-forward {display: inline-block;zoom: 1;outline: 0 none;width: 20px;height: 11px;overflow: hidden;background: url(http://a.xnimg.cn/n/core/res/pymk/pager.png) no-repeat;}
+    .friend-photo .pager-back {background-position: 0 -11px;}
+    .friend-photo .pager-forward {background-position: -20px -11px;}
+    .friend-photo .pager-back:hover {background-position: 0 -22px;}
+    .friend-photo .pager-forward:hover {background-position: -20px -22px;}
+    .friend-photo .pager-back-disable,
+    .friend-photo .pager-back-disable:hover {background-position: 0 0;}
+    .friend-photo .pager-forward-disable,
+    .friend-photo .pager-forward-disable:hover {background-position: -20px 0;}
+.friend-photo .friend-photo-item {display:block;float:left;width:100%;padding:0 0 0 0;}
+    .friend-photo-item h5 {float:right;width:120px;margin-bottom:5px;word-break:break-all;word-wrap:break-word;text-align:justify;text-justify:inter-ideograph;}
+    .friend-photo-item h5 span {display:block;padding-top:5px;}
+    .friend-photo-item a.photo {float:left;width:100px;}
+    .friend-photo-item img {width:100px;padding:3px;border:1px solid #bbc9e2;}
+    .friend-photo-item p.info {float:right;width:120px;word-break:break-all;word-wrap:break-word;}
+    .friend-photo-item p.contain-friend {float:left;width:100%;padding:6px 0 0 0;}
+    .friend-photo-item p.contain-friend a {margin:0 2px;}
+
+
+
+/* import by . */
+.message-fields .share-title, .message-fields .share-description  {
+    overflow: hidden;
+    width: auto;
+	
+}
+.opera-bar .select-btn2,
+.opera-bar .left-btn,
+.opera-bar .right-btn,
+.album-list li .infor .password,
+.album-list li .infor .phone,
+.album-list li .infor .userhead,
+.photo-comment,
+.photo-del,
+.photo-edit,
+.photo-comment span,
+.album-list li,
+.enter-ico{
+	background:url(http://a.xnimg.cn/n/apps/photo/cssimg/icons2.png) no-repeat 0 0 ;
+}
+.numbers{
+	color:#888;
+}
+li.pipe{margin:0 3px;color:#aaa;font-size:11px;font-weight:400}
+/* toolbar */
+.toolbar{
+	border-top:1px solid #DDDDDD;
+	background-color:#F7F7F7;
+	padding:5px 10px;
+	margin-bottom:5px;
+	*zoom:1;
+}
+.toolbar:after{
+	content: "\20";
+	display: block;
+	clear: both;
+}
+.toolbar .left{
+	float:left;
+}
+.toolbar .right{
+	float:right;
+}
+.toolbar .numbers{
+	float:left;
+	margin-right:15px;
+}
+.toolbar .opera-bar{
+	float:right;
+	height:23px;
+	line-height:23px;
+}
+.opera-bar .left-btn,
+.opera-bar .right-btn{
+	background-position:0 -299px;
+	height:23px;
+	line-height:23px;
+	display:block;
+	float:left;
+	color:#666 !important;
+	padding:0 10px;
+	border-right:1px solid #8B8B8B;
+	text-shadow: 1px 1px #FFF;
+}
+
+.opera-bar .left-btn2,
+.opera-bar .right-btn2{
+	height:23px;
+	line-height:23px;
+	display:block;
+	float:left;
+	color:#336699 !important;
+	padding:0 10px 0 8px;
+}
+
+.opera-bar .left-btn{border-right:none;}
+.opera-bar .select-btn{background-position:0 -276px;}
+.opera-bar .select-btn2{background-position:0 -166px; color:#333333 !important;}
+.opera-bar a:hover{text-decoration:none;}
+a.upload-btn{
+	display:inline-block;
+	*zoom:1;
+	padding:0px 8px;
+	height:21px;
+	line-height:21px;
+	border:1px solid #8B8B8B;
+	background:url(http://a.xnimg.cn/imgpro/button/btn-bg.png) 0 0 repeat;
+	color:#333;
+}
+a.upload-btn:visited{
+	color:#333;
+}
+a.upload-btn:hover{
+	text-decoration:none;
+	border-color:#333;
+	color:#333;
+}
+a.upload-btn .add-ico{
+	font-weight:bold;
+	padding-left:16px;
+	color:#535353;
+	background:url(http://a.xnimg.cn/imgpro/button/plus-gray.png) left center no-repeat;
+}
+/* Pager-nav */
+.pager-nav{clear:both;}
+.pager-nav .number-photo{line-height:22px;color:#888;float:left}
+.pager-top{border-bottom:0;padding-right:0}
+.pager-bottom{border-top:0;padding-top:10px}
+.pager-bottom .pagerpro li a{margin-top:2px;border-top:0}
+.pager-bottom .pagerpro li.current a, .pager-bottom .pagerpro li.current a:hover{border-top:2px solid #005EAC;margin-top:0}
+
+/* Album MyList */
+.album-list li .move-ico,
+.my-list li .move-ico{
+	display:none;
+	position:absolute;
+	left:10px;
+	top:10px;
+	width:25px;
+	height:25px;
+	text-indent:-9999em;
+	background:url(http://a.xnimg.cn/n/apps/photo/cssimg/drag.png) no-repeat;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src=http://a.xnimg.cn/n/apps/photo/cssimg/drag.png);	
+	_background:none;
+}
+.album-list li:hover .move-ico,
+.album-list li.hover .move-ico,
+.my-list li:hover .move-ico,
+.my-list li.hover .move-ico{display:block;visibility:visible}
+.other-page{}
+.page-num{
+	padding:10px 0;
+	color:#888;
+	font-weight:bold;
+}
+.page-fixed{
+	position: fixed;
+	background: #FFF;
+    font-weight: bold;
+	top: 0;
+    visibility: hidden;
+	width: 540px;
+    z-index: 20;
+}
+.album-list ul{
+	width:110%;
+}
+.album-list,
+.photo-list{
+	width:100%;
+	overflow:hidden\9;
+}
+
+.album-list li{
+	display:block;
+	float:left;
+	margin:9px 18px 18px 0;
+	position:relative;
+	z-index:5;
+	width:166px;
+	height:166px;
+	overflow:hidden;
+	background-position:0 0;
+	}
+.album-list li .album-cover{
+	/*cursor:move;*/
+	display:block;
+	overflow:hidden;
+	width:154px;
+	height:130px;
+	background-color:#DDD;
+	margin:4px;
+}
+.album-list li  .album-title{
+	display:block;
+	width:154px;
+	height:31px;
+	margin:-5px 0 0 4px;
+	color:#333333;
+	text-decoration:none;
+	cursor:pointer;
+}
+.album-list li  .album-title:hover, .album-list li  .album-title:link, .album-list li  .album-title:visited{
+	color:#333333;
+	text-decoration:none;
+}
+
+
+.album-list li a:hover.album-cover{
+	filter:alpha(opacity=80);
+	opacity:0.8;
+	-webkit-transition: all 0.2s ease-out;
+}
+.album-list li a:hover .photo-num{
+	background:url(http://a.xnimg.cn/n/apps/photo/cssimg/photo_num.png) no-repeat 0 bottom;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src=http://a.xnimg.cn/n/apps/photo/cssimg/photo_num.png);	
+	_background:none;
+	display:block;
+}
+
+.album-list li .album-cover img{
+	display:block;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	background-color:#DDD;
+	width:154px;
+	height:130px;
+	background-position:center 25%;
+	
+}
+.album-list li .infor{
+	word-wrap:break-word;
+	word-break:break-all;
+	display:block;
+	line-height:1.5em;
+	letter-spacing:-4px;
+	width:154px;
+	text-align:center;
+	padding:6px 0 0 0;
+}
+.album-list li .infor .album-name{
+	*display:inline;
+	*zoom:1;
+	width:100%;
+	height:1.5em;
+	overflow:hidden;
+	vertical-align:top;
+}
+.album-list li .infor *{letter-spacing:0;}
+.album-list li .infor .password{
+	background-position:-23px -325px;
+	display:inline-block;
+	width:9px;
+	height:14px;
+	margin-right:5px;
+	vertical-align: middle;
+}
+.album-list li .infor .phone{
+	background-position:0 -325px;
+	display:inline-block;
+	width:9px;
+	height:16px;
+	margin-right:5px;
+	vertical-align: middle;
+}
+
+.album-list li .infor .userhead{
+	background-position:-10px -325px;
+	display:inline-block;
+	width:13px;
+	height:16px;
+	margin-right:2px;
+	vertical-align: middle;
+}
+/* photo numbers */
+.album-list .photo-num{
+	display:none;
+	height:24px;
+	line-height:24px;
+	width:38px;
+	position:absolute;
+	top:100px;
+	left:115px;
+	color:#FFFFFF;
+	font-size:14px;
+	text-align:center;
+	cursor:pointer;
+	font-weight:bold;
+	*text-indent:2px;
+	filter:alpha(opacity=60);
+}
+.album-list a:hover.album-cover{
+	text-decoration:none;
+}
+/** photo list **/
+.photo-list li{
+	margin:3px 6px 3px 0;
+	padding:1px;
+	height:130px;
+	overflow:hidden;
+	border:1px solid #FFF;
+	float:left;
+	position:relative;
+	z-index:5;
+}
+.photo-list li:hover,
+.photo-list li.hover,
+.photo-list li.select{
+	border:1px solid #005EAC;
+	background-color:#CEE1EE;
+}
+.photo-list li .picture{
+	display:block;
+	overflow:hidden;
+	width:170px;
+	height:130px;
+	background-color:#DDD;
+}
+.photo-list li .picture img{
+	display:block;
+	overflow:hidden;
+	background-repeat:no-repeat;
+	background-color:#DDD;
+	width:170px;
+	height:130px;
+	margin:0;
+	background-position:center 25%;
+}
+.photo-list li:hover .photo-info{display:block}
+.photo-author{
+	position:absolute;
+	border:1px solid #FFF;
+	bottom:0;
+	left:0;
+	vertical-align:top;
+}
+.photo-author img{
+	display:block;
+	width:30px;
+	height:30px;
+}
+.photo-info .descript,
+.myphoto-info .descript{
+	font-family: "微软雅黑";
+	position:absolute;
+	z-index:2;
+	bottom:0px;
+	left:6px;
+	width:160px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	color:#FFF;
+	}
+.frid-photo .descript{
+	left:36px;
+	width:120px;
+}
+.photo-info,
+.myphoto-info{
+	background:url(http://a.xnimg.cn/n/apps/photo/cssimg/gray-bg.png) no-repeat 0 bottom;
+	_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src=http://a.xnimg.cn/n/apps/photo/cssimg/gray-bg.png);	
+	_background:none;
+	display:none;
+	height:32px;
+	line-height:24px;
+	width:170px;
+	position:absolute;
+	z-index:1;
+	top:99px;
+	left:1px;
+}
+/*photo Operation*/
+.my-list li:hover .photo-del,
+.my-list li:hover .photo-edit,
+.my-list li:hover .myphoto-info,
+.my-list li.hover .photo-del,
+.my-list li.hover .photo-edit,
+.my-list li.hover .myphoto-info,
+.photo-list li.select .photo-edit,
+.photo-list li.select .edit-desc{
+	display: block;
+}
+.my-list li:hover .photo-comment,
+.photo-list li.select .photo-comment,
+.photo-list li.select .myphoto-info,
+.photo-list li.select .photo-del,
+.photo-list li.select .move-ico{
+	visibility: hidden;
+}
+.photo-comment{
+	background-position:-167px -322px;
+	position:absolute;
+	right:10px;
+	top:10px;
+	display:block;
+	height:22px;
+	line-height:16px;
+	padding-left:7px;
+}
+.photo-comment span{
+	background-position:right -345px;
+	padding-right:7px;
+	display:inline-block;
+}
+.photo-del,
+.photo-edit{
+	display:none;
+	background-position:-55px -322px;
+	width:21px;
+	height:20px;
+	text-indent:-9999em;
+	outline:none;
+	position:absolute;
+	right:1px;
+	z-index:3;
+}
+.photo-edit{
+	background-position:-33px -322px;
+	top:111px;
+}
+a:hover.photo-del{background-position:-97px -322px;}
+a:hover.photo-edit,
+.photo-list li.select .photo-edit{background-position:-76px -322px;}
+.photo-list li.select{
+	border-bottom:1px solid #FFF;
+	overflow:visible;
+	z-index:10;
+}
+.photo-list li .edit-desc{
+	display: none;
+	zoom:1;
+	border:1px solid #005EAC;
+	border-top:none;
+	background:#CEE1EE;
+	position:absolute;
+	top:131px;
+	left:-1px;
+	padding:0 1px 1px;
+	width:170px;
+}
+.edit-desc .edit-content{
+	border:1px solid #83ACC6;
+}
+.edit-desc input{
+	width:163px;
+	padding:0.8ex 0.4ex;
+	background:#FFF;
+	border:none;
+	border-bottom:1px solid #DDD;
+}
+.edit-desc p{
+	background:#F1F1F1;
+	color:#AAA;
+	padding:3px;
+	width:162px;
+}
+.edit-desc span{
+	border:1px solid #DDD;
+	border-radius:2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding:0 2px;
+	display:inline-block;
+	color:#888;
+	line-height:16px;
+	margin:0 2px;
+}
+.edit-desc span.enter-ico{
+	background-position:27px -341px;
+	padding-right:14px;
+	
+	}
+*+html .edit-desc span.enter-ico{padding-top:3px;}
+
+/** edit album info dialog by bo.hu@renren-inc.com **/
+.edit-album-dialog {line-height:auto;}/*width+100px*/
+.edit-album-dialog dt {margin:0 7px 0 0;font-weight:bold; color:#808080;text-align:right; width:80px; padding-top:4px;}
+.edit-album-dialog dl {overflow:hidden; zoom:1;margin:5px 0; }
+.edit-album-dialog dt, .edit-album-dialog dd { float:left;}
+.edit-album-dialog .inputtext {padding:3px 0pt 3px 3px; width:270px; }
+.edit-album-dialog textarea {width:269px; height:50px;}
+.edit-album-dialog select {width:200px; _margin-bottom:2px;}
+
+
+
+/* import by . */
+﻿/* CSS Document */
+.friendAutoSelector{vertical-align:top;width:280px}
+.friendAutoSelector .inputRst{padding-left:10px;}
+.frsAutoUp,
+.frsAutoDown{background-image:url(http://a.xnimg.cn/imgpro/arrow/scroll_down_yellow.gif);background-repeat:no-repeat;background-position:right center;width:9px;height:9px;display:inline-block;cursor:pointer;margin:1px 20px 0 5px;*display:inline;*zoom:1}
+.frsAutoUp{background-image:url(http://a.xnimg.cn/imgpro/arrow/scroll_up_yellow.gif);}
+.autoRst{border:solid 1px #BEC7D8;width:248px;position:absolute;z-index:2;background-color:#fff;overflow:hidden;left:0;*top:22px;top:21px}
+.autoRst ul{margin-bottom:-1px}
+.autoRst ul .selected{background-color:#F0F5F8;color:#888888;}
+.autoRst ul .selectedname{background-color:#F0F5F8;}
+.autoRst ul li{border-bottom:solid 1px #eee;line-height:1.8;overflow:hidden;padding-left:5px;}
+.autoRst ul li a{display:block;}
+.autoRst ul li a:hover{display:block;text-decoration:none;}
+
+.radio-choose{padding:2px;width:310px;position:absolute;left:-65px;top:23px;*top:24px}
+.radio-choose .tips{background-color:#F0F5F8;padding:2px 5px 2px 5px;*padding:2px 5px 0px 5px;line-height:22px;overflow:hidden;zoom:1}
+.radio-choose .tips .float-left{line-height:22px}
+.radio-choose .tips #tipsBtn{padding-top:2px}
+.radio-choose .holder{overflow-x:hidden;overflow-y:scroll;border:solid 1px #EFF1EE;height:98px}
+.radio-choose .holder ul{margin-right:-10px}
+.radio-choose .holder label{font-weight:normal;color:#666}
+.radio-choose .holder li{padding-left:5px;line-height:24px;height:24px}
+.radio-choose .holder li .userCell{width:95px;overflow:hidden;text-overflow:ellipsis;display:inline-block;float:left;height:21px;}
+.radio-choose .actionBtns{padding:5px}
+/*-- friendl elector --*/	
+#write_name {background:#FFFFFF url(http://a.xnimg.cn/imgpro/bg/magglass.gif) no-repeat scroll 3px 50%;padding-left:17px;}
+.friendlist_elector{vertical-align:top;position:relative;width:359px}
+.friendlist_elector .friend_list,.friendlist_elector .friend_add {line-height:22px;overflow-x:hidden;overflow-y:scroll;float:left;width:178px;height:154px;border-bottom:solid 1px #BEC7D8;border-right:solid 1px #BEC7D8;}
+.friendlist_elector .friend_list{border-left:solid 1px #BEC7D8;background:#F0F5F8;}
+.friendlist_elector .friend_list ul {}
+.friendlist_elector .friend_list li {display:block;}
+.friendlist_elector .friend_list .choose {background:url(http://a.xnimg.cn/imgpro/bg/choose.gif) no-repeat 145px center;padding-left:6px;}
+.friendlist_elector .friend_list li a,.friendlist_elector .friend_list li a:hover { height:22px;display:block;padding:0 6px 0;text-decoration:none;color:#000;}
+.friendlist_elector .friend_list li a:hover {background:#F8E6AC url(http://a.xnimg.cn/imgpro/bg/friend_list_bg.gif) no-repeat 145px center;}
+.friendlist_elector .friend_add {border-left:none;}
+.friendlist_elector .friend_add ul {}
+.friendlist_elector .friend_add li {display:block;padding-left:6px;clear:both;}
+.friendlist_elector .friend_add li span {float:left;}
+.friendlist_elector .friend_add li em {float:right;}
+.friendlist_elector .friend_add li em img {margin:6px 6px 0;}
+.friendlist_elector .friend_add p {color:#888888;padding-left:6px;}
+.friendlist_elector .functionbutton {clear:both;padding:8px 0 0;}
+.destext { color:#000000;padding-top:10px;padding-bottom:10px;border-bottom:1px #CEE1EE solid;margin-bottom:10px;zoom:1;}
+
+/*friendSelect for Edit
+----------------------------*/
+.friendSelectorBox .selector{ border:1px solid #ccc;background-color:#fff;height:340px;overflow:scroll;overflow-x:hidden;margin-bottom:5px;}
+.friendSelectorBox .selector ul{padding:0.5em;}
+.friendSelectorBox .selector ul li{ width:134px;height:64px;overflow:hidden;float:left; border:0 ;padding:0;margin:3px;margin-right:3px;}
+
+.friendSelectorBox .selector ul li a{ display:block;height:64px;padding:4px;}
+.friendSelectorBox .selector ul li a:hover{ text-decoration:none;background:url(http://a.xnimg.cn/img/friend_selector_hover_bg.gif) top left no-repeat;}
+
+.friendSelectorBox .selector ul li a:hover h4{ color:#333;}
+.friendSelectorBox .selector ul li a:hover span.atnet{ color:#666;}
+
+.friendSelectorBox .selector ul li a:hover span.picbox{ background-color:#fff;}
+
+.friendSelectorBox .selector ul li a h4{ color:#333;}
+.friendSelectorBox .selector ul li a span.atnet{ color:#ccc;}
+
+.friendSelectorBox .selector ul li a span.picbox{ width:50px;height:50px;padding:2px;margin-right:3px;border:1px #ccc solid;float:left;border-color:#b1c1e1;}
+
+.friendSelectorBox .selector ul li a span.picbox span.pic{ background-color:#fff;background-position:center;background-repeat:no-repeat;width:50px;height:50px;display:block;}
+
+.friendSelectorBox .selector ul li a span.picbox img.added{ display:none;}
+
+.friendSelectorBox .selector ul li.select,
+.friendSelectorBox .selector ul li.select a:hover{ background:url(http://a.xnimg.cn/img/friend_selector_bg.gif) top left no-repeat;}
+.friendSelectorBox .selector ul li.select a h4,
+.friendSelectorBox .selector ul li.select a:hover h4{ color:#fff;}
+.friendSelectorBox .selector ul li.select a:hover span.atnet{ color:#ccc;}
+.friendSelectorBox .selector ul li.select a span.picbox,
+.friendSelectorBox .selector ul li.select a:hover span.picbox{ background:#8497C0;}
+.friendSelectorBox .selector ul li.select a span.picbox span.pic{ background-position:center;background-repeat:no-repeat;width:50px;height:50px;}
+.friendSelectorBox .selector ul li.select a span.picbox span.pic img.added{ display:block;padding-top:37px;}
+
+/*--2009.1.9new friends selector  --*/
+.allfriendslist{ border-top: 1px #CEE1EE solid;background-color:#E3EEF8;}
+.friendsgroup-sidebar{background-color:#E3EEF8;}
+.friendSelectorBox .selectfilter {line-height:22px;margin-bottom:10px;}
+
+.n-f-s{}
+.n-f-s strong{font-size:14px;font-weight:lighter;display:block;float:left}
+.n-f-s .function {float:left;width:50%;color:#808080;}
+.n-f-s .function span {display:block;float:left;margin-right:20px;line-height:25px;}
+.n-f-s .function .function_nav_up a,.school-list .function_nav_down a {width:66px;height:25px;line-height:25px;padding:0 0 0 6px;}
+.n-f-s .function .function_nav_up a {display:block;background:url(http://a.xnimg.cn/imgpro/bg/function_nav_up.gif) no-repeat 60px 10px;}
+.school-list .function_nav_down {background:url(http://a.xnimg.cn/imgpro/bg/function_nav_bg.gif) no-repeat right bottom;}
+.school-list .function_nav_down a {line-height:25px;display:block;background:url(http://a.xnimg.cn/imgpro/bg/function_nav_down.png) no-repeat left top;}
+.school-list {width:138px;position:absolute;}
+.school-list .school-list_title {border-bottom:1px #CCCCCC solid;color:#888888;margin-bottom:5px;padding:5px 0 8px;}
+.school-list ul {overflow-x:hidden;overflow-y:scroll;border:1px #3777BC solid;border-top:none;padding:0 4px 0 6px;background-color:#ffffff;height:207px;}
+.school-list li {height:19px;line-height:19px;overflow:hidden;}
+.school-list li a:link {color:#000000;text-decoration:none;}
+.school-list li a:visited {color:#000000;text-decoration:none;}
+.school-list li a:hover {text-decoration:underline;}
+
+.state {float:right;width:49%;margin-bottom:5px;}
+.state ul {list-style:none;}
+.state li {display:inline;padding:0;margin: 0;}
+.state a {float:right;text-decoration:none;padding:0 0 0 3px;margin: 0 5px 0 0;}
+.state a span {float:left;display:block;padding: 0px 7px 0px 5px;line-height:19px;}
+.state a span {float:none;}
+*+html .state a span {line-height:21px;}
+.state a:hover span {text-decoration: none;color:#FFFFFF;background:url(http://a.xnimg.cn/imgpro/bg/friends_selecot_state_R.gif) no-repeat right top;}
+.state a:hover {background:url(http://a.xnimg.cn/imgpro/bg/friends_selecot_state_L.gif) no-repeat left top;}
+.state a:hover span {}
+.state .onstate a {color:#FFFFFF;background:url(http://a.xnimg.cn/imgpro/bg/friends_selecot_state_L.gif) no-repeat left top;line-height:14px;}
+.state .onstate a:hover{text-decoration:none}
+.state .onstate span{background:url(http://a.xnimg.cn/imgpro/bg/friends_selecot_state_R.gif) no-repeat right top;color:#fff}
+.state em{font-style:inherit;font-weight:inherit}
+
+.closebnt a {background:url(http://a.xnimg.cn/imgpro/bg/close_window.gif) no-repeat left top;width:17px;height:17px;display:block;}
+.closebnt a:hover {background:url(http://a.xnimg.cn/imgpro/bg/close_window.gif) no-repeat left bottom;}
+.selectorclose {background-color:#F6F6F6;padding:3px;}
+#sub-nav {padding-left:10px;}
+
+
+/** new share popup style and the s=share **/
+.s-success-box{padding: 10px 0;font-size: 14px;}
+.s-icon{display: inline-block;font-size: 14px;text-align: center;vertical-align: middle;width: 100px;*display: inline;*zoom:1;}
+.s-success-more{width:300px; text-align:center; font-size:12px; border-left:1px solid #CEE1EE; display: inline-block;*display: inline;*zoom:1; vertical-align: middle;}
+.s-success-more p{margin-top:10px;}
+.s-message{padding:10px 10px 0 0;*padding:10px 10px 10px 0;}
+.s-message-mod{margin-bottom:10px;}
+.message-fields dt{float:left;margin:0 10px;_margin-left:5px;text-align:right;width:50px;overflow:hidden;}
+.message-fields dd { float: left;margin:0 0 10px; width: 350px;}
+.attachment_stage{margin-top:10px;}
+.s-message .share-footer{display:block;height:23px;line-height:23px;float:left;}
+.s-message .share-footer span{color:#888;}
+.s-message a.m-editor-emo{display:block;height:23px;line-height:23px;padding-left:25px;background-image:url(http://a.xnimg.cn/imgpro/minieditor/action_btn.png);background-position:0 -23px;background-repeat:no-repeat; outline:none;float:right}
+.message-fields dd textarea,
+.message-fields dd .s-text{width:340px;border:1px solid #A0BEDC;padding:3px;}
+.message-fields dd#dd_privacy_field{margin:0}
+.message-fields textarea{height:50px;margin:0pt;overflow:auto}
+.message-fields label{padding-top:4px;display:block}
+.message-fields dd .tokenizer{width:340px;border:1px solid #A0BEDC;padding:0 3px;}
+
+.s-info-box{padding:10px;background:#F7F7F7;border:1px solid #E8E8E8;}
+.s-thumb{border:1px solid #9BAFBE;background:#FFF;float:left;padding:2px;margin-right:10px}
+.s-thumb img{*zoom:1;*display:inline;background:#333}
+.s-description{line-height:18px;}
+.s-description .s-title{font-weight:700;color:#555;}
+.s-font-gray{color:#888}
+.s-mini-group{margin:0 0 15px 8px;}
+.s-mini-group ul{margin-bottom:5px;}
+.s-mini-group li{float:left;width:138px;}
+.s-mini-group li a{background:url(http://a.xnimg.cn/imgpro/share/mini-gicon.png) no-repeat;display:block;color:#333!important;margin:1px;padding:0 3px;height:26px;line-height:26px;}
+.s-mini-group li a:hover{background-position:0 -26px;text-decoration:none;}
+.s-mini-group li a.selected,
+.s-mini-group li a:hover.selected{background-position:0 -52px;color:#FFF!important;}
+.s-mini-group li a img{margin-right:5px;}
+.s-mini-group p{margin-bottom:5px;}
+/* share sort list*/
+.s-sort{
+	display:none;
+	border:1px solid #83ACC6;
+	background-color:#FFF;
+	position:absolute;
+	right:100;
+	top:160px;
+	padding:3px 0;
+	z-index:2;
+	line-height:21px;
+	width: 78px;
+	zoom:1;
+	}
+.s-sort li{
+	float:none;
+	_border:1px solid #FFF;
+}
+.s-sort li a{
+	display:block;
+	padding:2px 15px;
+	}
+.s-sort li a:hover{
+	background-color:#548BC6;
+	color:#FFF!important;
+	text-decoration:none;
+	}
+
+
+/** side style**/
+#sidebar2{
+	padding-top:38px;
+}
+/* friend photo line */
+#friendPhoto .friend-photo{border-top:1px solid #CEE1EE;padding: 10px 0;}
+#sponsorsWidget .side-item-body{
+	padding:0
+}
+#sponsorsWidget .side-item{
+	border-top:1px solid #CEE1EE;
+	padding-top:8px;
+}
+#sidebar2 .pymk{
+	border-top:1px solid #CEE1EE;
+	padding:8px 0 5px;
+}
+/** album of other firends **/
+.album-sidebar{width:240px;overflow:hidden}
+/* Friend Selector */
+.friendAutoSelector{width:240px!important;}
+/* Box-photomain */
+.box-photomain{padding:8px 0 10px;margin-bottom:10px;border-top:1px solid #CEE1EE}
+.box-photomain .box-search{padding-bottom:10px;border-bottom:1px solid #CEE1EE}
+.box-photomain .box-search h1{font-size:12px;padding-bottom:8px;font-weight:bold;}
+
+/* import by . */
+/* V6新布局 */
+.photo-main {
+	zoom: 1;
+	padding-top: 20px;
+}
+.photo-main:after {
+	content: "\20";
+	display: block;
+	clear: both;
+}
+.photo-main-content {
+	width: 540px;
+	float: left;
+}
+.photo-main-sidebar2 {
+	width: 240px;
+	float: right;
+}
+.photo-main .box-photomain .box-search h1,
+.photo-main .friend-photo h4,
+.photo-main .pymk-header h4 {
+	color: #666;
+}
+
+
+

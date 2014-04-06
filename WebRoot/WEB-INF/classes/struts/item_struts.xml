@@ -1,0 +1,43 @@
+<?xml 
+version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="Item" extends="cxjd-default" namespace="/">
+		<action name="*Item" class="com.cxjd.action.item.ItemAction" method="{1}">
+			<result name="list">/modules/item/listItemUI.jsp</result>
+			<result name="apply">/modules/item/apply.jsp</result>
+			<result name="applyok" type="redirect">listApply.action</result>
+			
+			<result name="addinput">/modules/item/addItemUI.jsp</result>
+			<result name="updateinput">/modules/item/updateItemUI.jsp</result>
+			<result name="input">/modules/item/{1}ItemUI.jsp</result>
+			<result name="add" type="redirect">input.action</result>
+			<result name="update" type="redirect">input.action</result>
+			<result name="delete" type="redirect">listItem.action</result>
+			<interceptor-ref name="defaultStack" />  
+			<interceptor-ref name="authorityGeneral" />  
+			<interceptor-ref name="authorityTeacher">
+				<param name="excludeMethods">list,apply,doApply</param>
+			</interceptor-ref>
+		</action>
+		
+		<action name="*Apply" class="com.cxjd.action.item.ApplyAction" method="{1}">
+			<result name="list">/modules/item/apply/listApplyUI.jsp</result>
+			<result name="show">/modules/item/apply/showApplyUI.jsp</result>
+			<result name="delete" type="redirect">listApply.action</result>
+			<result name="check" type="redirect">listApply.action</result>
+			<result name="applyok" type="redirect">listApply.action</result>
+			<result name="mark">/modules/item/mark/markUI.jsp</result>
+			<result name="listmark">/modules/item/mark/listmarkUI.jsp</result>
+			
+			<interceptor-ref name="defaultStack" />  
+			<interceptor-ref name="authorityGeneral" />  
+			<interceptor-ref name="authorityTeacher">
+				<param name="excludeMethods">list,show,listmark,mark,delete</param>
+			</interceptor-ref>
+		</action>
+	</package>
+</struts>

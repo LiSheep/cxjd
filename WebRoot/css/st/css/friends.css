@@ -1,0 +1,980 @@
+#friendpage .compatible{width:980px;float:none}
+.compatible #content{width:980px}
+.Widget{float:right;width:240px}
+
+#friendpage .page-title{ height:22px;overflow:hidden;padding:15px 0px 10px 10px;}
+#friendpage .page-title h2{background:url(http://a.xnimg.cn/imgpro/icons/friend-icons4.png) no-repeat -26px 0;float:left;padding-left:24px;margin-right:10px;}
+.pager-top{border:none}
+.pager-bottom{border:none;padding-bottom:0}
+.pager-bottom .pagerpro li a{border-top:2px #F0F5F8 solid}
+.friends-main{}
+
+.friends-main .friends-sidebar{width:140px;float:left;margin-right:20px;_margin-right:10px;}
+.friends-main .friends-sidebar h1{font-size:12px;padding-left:10px}
+.friends-main .friends-sidebar form.searchbar{position:relative;}
+form.searchbar input.search{border:1px solid #84ABC6;font-size:12px;height:14px;padding:3px 24px 3px 3px;width:111px;float:left}
+form.searchbar input.submit {background:#B8D4E8 url(http://a.xnimg.cn/imgpro/theme/xn/magnifier.gif) no-repeat scroll left top;border:1px solid #84ABC6;height:22px;margin-left:-5px;text-indent:-999px;width:21px;}
+.friends-main .friends-listbox .navSearch p{line-height:22px}
+
+.friends-main .friends-listbox #navSearch p{line-height:22px;padding-left:180px;}
+.friends-main .friends-listbox #navSearch{float:none}
+#tailSearchForm{float:left}
+#tailSearchForm #searchQ {width:140px;}
+#tailSearchForm input.submit{cursor:pointer}
+
+.friends-main .friends-sidebar ul.CategoryList li,.friends-main .friends-sidebar ul.GroupList li{border-bottom:1px #E3EEF8 solid;width:140px;word-break: keep-all;} /*keep-all强制不换行*/
+.friends-main .friends-sidebar ul.CategoryList li a,.friends-main .friends-sidebar ul.GroupList li a{padding-left:10px;height:26px;line-height:26px;display:block;overflow:hidden;}
+.friends-main .friends-sidebar ul.CategoryList li a span,.friends-main .friends-sidebar ul.GroupList li a span{width:16px;height:16px;margin:5px 5px 5px 0;display:block;float:left}
+.friends-main .friends-sidebar ul.CategoryList li a:hover,.friends-main .friends-sidebar ul.GroupList li a:hover{background-color:#F0F5F8;text-decoration:none;}
+.friends-main .friends-sidebar ul.GroupList li.online{border-bottom:2px solid #E3EEF8}
+.friends-main .friends-sidebar ul.CategoryList{margin:5px 0 30px 0;}
+.friends-main .friends-sidebar ul.CategoryList span{background:url(http://a.xnimg.cn/imgpro/icons/friend-icons4.png) no-repeat}
+.friends-main .friends-sidebar ul.CategoryList span.i-all{background-position:-26px 0}
+.friends-main .friends-sidebar ul.CategoryList span.i-seek{background-position:-26px -78px}
+.friends-main .friends-sidebar ul.CategoryList span.i-special{background-position:-26px -104px}
+.friends-main .friends-sidebar ul.CategoryList span.i-new{background-position:-26px -52px}
+.friends-main .friends-sidebar ul.CategoryList span.i-recent{background-position:-26px -130px}
+.friends-main .friends-sidebar ul.CategoryList span.i-pages{background-position:-26px -256px}
+.friends-main .friends-sidebar ul.CategoryList span.i-wab{background:url(http://s.xnimg.cn/imgpro/friend/icon1.png) no-repeat}
+.friends-main .friends-sidebar ul.CategoryList em.i-hot{background:url(http://a.xnimg.cn/imgpro/icons/new.gif) no-repeat 0 0;display:block;width:35px;height:13px;position:absolute;margin:-22px 0 0 72px;*margin:-2px 0 0 3px}
+
+.friends-main .friends-sidebar ul.CategoryList .select a,.friends-main .friends-sidebar ul.GroupList .select a{background:url(http://a.xnimg.cn/imgpro/bg/GroupList-bg.png) no-repeat 0 0;color:#fff;text-decoration:none;}
+.friends-main .friends-sidebar ul.CategoryList .select span.sub a{color:#005EAC;padding-left:32px;background:#FFFFFF;}
+.friends-main .friends-sidebar ul.CategoryList .select span.sub a.select{color:#005EAC;padding-left:32px;background:#E3EEF8;}
+.friends-main .friends-sidebar ul.CategoryList .select span{background:url(http://a.xnimg.cn/imgpro/icons/friend-icons4.png) no-repeat}
+.friends-main .friends-sidebar ul.CategoryList .select span.i-all{background-position:left 0}
+.friends-main .friends-sidebar ul.CategoryList .select span.i-seek{background-position:left -78px}
+.friends-main .friends-sidebar ul.CategoryList .select span.i-special{background-position:left -104px}
+.friends-main .friends-sidebar ul.CategoryList .select span.i-new{background-position:left -52px}
+.friends-main .friends-sidebar ul.CategoryList .select span.i-recent{background-position:left -130px}
+.friends-main .friends-sidebar ul.CategoryList .select span.i-pages{background-position:left -256px}
+.friends-main .friends-sidebar ul.CategoryList .select span.i-wab{background:url(http://s.xnimg.cn/imgpro/friend/icon2.png) no-repeat}
+.friends-main .friends-sidebar ul.GroupList .select span{background:url(http://a.xnimg.cn/imgpro/icons/friend-icons4.png) no-repeat left -26px}
+
+.friends-main .friends-sidebar ul.GroupList{margin-top:5px}
+.friends-main .friends-sidebar ul.GroupList span{background:url(http://a.xnimg.cn/imgpro/icons/friend-icons4.png) no-repeat -26px -26px}
+.friends-main .friends-sidebar ul.GroupList span.NotGroup{background:url(http://a.xnimg.cn/imgpro/icons/friend-icons4.png) no-repeat left -158px}
+.friends-main .friends-sidebar .CreateGroup{padding-left:70px;margin-top:7px;text-align:right;font-weight:bold;margin-bottom:28px;background:url(http://a.xnimg.cn/imgpro/icons/friend-icons4.png) no-repeat 73px -181px}
+.friends-main .friends-sidebar .CreateGroup a{display:block}
+*+html .friends-main .friends-sidebar .CreateGroup a{line-height:17px}
+.friends-main .friends-sidebar .InvitationFeiends{padding-bottom:5px;font-weight:bold;background:url(http://a.xnimg.cn/imgpro/icons/friend-icons4.png) no-repeat -26px -52px}
+* html .friends-main .friends-sidebar .InvitationFeiends{height:20px}
+.friends-main .friends-sidebar .InvitationFeiends a{display:block;padding-left:20px}
+*+html .friends-main .friends-sidebar .InvitationFeiends a{line-height:17px}
+
+.friends-main .friends-sidebar .downloadclient{border-top:1px solid #E3EEF8;margin-top:10px;padding-top:20px}
+
+.friends-main .friends-listbox{width:800px;float:left;}
+.friends-main .friends-listbox .UserList{margin:10px 0;}
+.friends-main .friends-listbox .UserList ul{}
+.friends-main .friends-listbox .UserList li:after{content: ".";display:block;clear:both;height:0;visibility:hidden;}
+.friends-main .friends-listbox .UserList li{display:inline-block;width:100%;padding-bottom:5px;margin-bottom:5px;border-bottom:1px #E3EEF8 solid}
+.friends-main .friends-listbox .UserList li.border-none{border-bottom:0;padding-bottom:0;margin-bottom:0}
+.friends-main .friends-listbox .UserList li a{}
+.friends-main .friends-listbox .UserList li a.UserPic{width:50px;height:50px;display:block;float:left;margin-right:10px;}
+.friends-main .friends-listbox .UserList li p.UserInformation{display:block;*width:350px;float:left;line-height:25px}
+.friends-main .friends-listbox .UserList li p.UserInformation strong{display:block;}
+.friends-main .friends-listbox .UserList li p.UserInformation em{color:#808080}
+.friends-main .friends-listbox .UserList li div.UserDelete{float:right;margin:10px 10px 0 0;padding:5px 0 5px 10px;border-left:1px #E3EEF8 solid;height:18px;position:relative}
+.friends-main .friends-listbox .UserList li div.UserDelete a{text-decoration:none;background:url(http://a.xnimg.cn/imgpro/icons/cross-button.png) no-repeat left top;width:18px;height:18px;display:block}
+.friends-main .friends-listbox .UserList li div.UserDelete a:hover{background-position:right top}
+.friends-main .friends-listbox .UserList li div.sorting{float:right;margin:10px 10px 0 0}
+.friends-main .friends-listbox .UserList li div.sorting p.upward{position:relative}
+.friends-main .friends-listbox .UserList li div.sorting p.upward a{text-decoration:none;background:url(http://a.xnimg.cn/imgpro/icons/paixu.png) no-repeat left top;display:block;width:21px;height:14px}
+.friends-main .friends-listbox .UserList li div.sorting p.upward a:hover{background-position:left -28px}
+.friends-main .friends-listbox .UserList li div.sorting p.downward{position:relative}
+.friends-main .friends-listbox .UserList li div.sorting p.downward a{text-decoration:none;background:url(http://a.xnimg.cn/imgpro/icons/paixu.png) no-repeat left -14px;display:block;width:21px;height:14px}
+.friends-main .friends-listbox .UserList li div.sorting p.downward a:hover{background-position:left bottom}
+.friends-main .friends-listbox .UserList li.nofriends{border:1px solid #E3EEF8;text-align:center;padding:10px 0;height:20px;}
+
+.friends-main .friends-listbox .friend-banner{}
+
+/*Tips by yang.zhao*/
+.friends-main .friends-listbox .UserList li div.UserDelete a:hover{}
+.friends-main .friends-listbox .UserList li div.UserDelete span{display:none}
+.friends-main .friends-listbox .UserList li div.UserDelete a:hover span{z-index:1000;display:block;position:absolute;top:-28px;text-align:center;left:-15px;background:url(http://a.xnimg.cn/imgpro/icons/tips.png) no-repeat 0 0;width:68px;height:31px;color:#555555;line-height:25px}
+
+.friends-main .friends-listbox .UserList li div.sorting p.upward a:hover{}
+.friends-main .friends-listbox .UserList li div.sorting p.upward span{display:none}
+.friends-main .friends-listbox .UserList li div.sorting p.upward a:hover span{display:block;position:absolute;top:-33px;text-align:center;left:-13px;background:url(http://a.xnimg.cn/imgpro/icons/tips-small.png) no-repeat left top;width:48px;height:31px;color:#555555;line-height:25px}
+
+.friends-main .friends-listbox .UserList li div.sorting p.downward a:hover{}
+.friends-main .friends-listbox .UserList li div.sorting p.downward span{display:none}
+.friends-main .friends-listbox .UserList li div.sorting p.downward a:hover span{display:block;position:absolute;top:-33px;text-align:center;left:-13px;background:url(http://a.xnimg.cn/imgpro/icons/tips-small.png) no-repeat left top;width:48px;height:31px;color:#555555;line-height:25px}
+
+.friends-main .friends-listbox .UserList li div.ModifyGroup{float:right;margin:13px 10px 0 0;position:relative}
+.friends-main .friends-listbox .UserList li div.ModifyGroup a.ModifyGroup-nav{background:url(http://a.xnimg.cn/imgpro/bg/ModifyGroupl.png) no-repeat left bottom;width:55px;padding-left:22px;height:23px;line-height:23px;display:block}
+.friends-main .friends-listbox .UserList li div.ModifyGroup a.select{background:url(http://a.xnimg.cn/imgpro/bg/ModifyGroupl.png) no-repeat left top}
+.friends-main .friends-listbox .UserList li div.ModifyGroup .ModifyGroup-nav:hover{background-position:left top;text-decoration:none}
+.friends-main .friends-listbox .UserList li div.ModifyInformation{color:#808080;float:right;margin-top:7px;margin-right:10px}
+.friends-main .friends-listbox .UserList li div.ModifyInformation span{display:inline-block;border-bottom:1px #FFC359 solid;background-color:#FEEEB2;padding:0 5px;height:16px;line-height:16px;color:#333}
+.friends-main .friends-listbox .UserList li div.ModifyInformation em{display:block;text-align:right;margin-top:5px}
+
+.friends-main .friends-listbox .Fast-seekfriend{padding:0 10px}
+.friends-main .friends-listbox .Fast-seekfriend h1{margin-bottom:6px;font-size:14px;padding-left:20px}
+.friends-main .friends-listbox .Fast-seekfriend h2{color:#555555;padding-left:20px;margin:15px 0 15px 20px;position:relative;background:url(http://a.xnimg.cn/imgpro/icons/friend-icons4.png) no-repeat -26px -78px;display:inline-block;}
+.friends-main .friends-listbox .Fast-seekfriend h2 a{font-weight:lighter}
+.friends-main .friends-listbox .Fast-seekfriend h2:hover{}
+.friends-main .friends-listbox .Fast-seekfriend h2 span{font-weight:lighter}
+.friends-main .friends-listbox .Fast-seekfriend h2.i-email{background-position:left -204px}
+.friends-main .friends-listbox .Fast-seekfriend h2.i-msn{background:url(http://a.xnimg.cn/imgpro/home/iFeed_or_Requests.png?timestamp=091209) no-repeat 0 -1531px}
+.friends-main .friends-listbox .Fast-seekfriend h2.addicon{background-position:-26px -52px}
+* html .friends-main .friends-listbox .Fast-seekfriend h2 a{right:20px}
+* html .friends-main .friends-listbox .Fast-seekfriend h3 a{right:20px}
+.friends-main .friends-listbox .Fast-seekfriend .choose-box table{margin-left:40px}
+.friends-main .friends-listbox .Fast-seekfriend .choose-box table td{padding:0 5px 5px 0}
+.friends-main .friends-listbox .Fast-seekfriend .choose-box table td span{display:inline-block}
+.friends-main .friends-listbox .Fast-seekfriend h3{font-size:12px;color:#555;padding-left:20px;margin-top:10px;position:relative;background:url(http://a.xnimg.cn/imgpro/icons/friends.gif) no-repeat 0 0}
+.friends-main .friends-listbox .Fast-seekfriend h3 a{font-size:12px;font-weight:lighter;position:absolute;right:0}
+.friends-main .friends-listbox .Fast-seekfriend h4{font-size:12px;font-weight:lighter;line-height:1.5em}
+.friends-main .friends-listbox .Fast-seekfriend .choose-box p{color:#808080;padding-left:40px;margin:-5px 0 10px 0}
+.friends-main .friends-listbox .Fast-seekfriend .AccountMain{padding-left:40px}
+.friends-main .friends-listbox .Fast-seekfriend .AccountMain span{display:block;color:#808080;font-weight:bold;margin-top:5px}
+.friends-main .friends-listbox .Fast-seekfriend .submit-btn{margin-top:5px;margin-left:101px}
+.friends-main .friends-listbox .Fast-seekfriend ul.friend-list{padding:0 10px 10px 40px}
+.friends-main .friends-listbox .Fast-seekfriend ul.friend-list li{display:inline-block;height:90px;overflow:hidden;width:90px;margin-bottom:10px;*display:inline;*zoom:1}
+.friends-main .friends-listbox .Fast-seekfriend ul.friend-list li a.userpic{margin-right:10px;width:50px;height:50px;overflow:hidden;display:block;margin-bottom:5px;zoom:1;}
+.friends-main .friends-listbox .Fast-seekfriend ul.friend-list li a.close{margin-left:5px;display:none}
+.friends-main .friends-listbox .Fast-seekfriend ul.friend-list li p{text-align:center;width:50px}
+.friends-main .friends-listbox .Fast-seekfriend ul.friend-list li p span{display:block;margin-bottom:2px;height:14px;overflow:hidden}
+.friends-main .friends-listbox .Fast-seekfriend .show-more{width:530px;margin:0 auto;height:26px;line-height:26px;text-align:center;margin-bottom:20px}
+.friends-main .friends-listbox .Fast-seekfriend .show-more a{display:block;width:100%;}
+.friends-main .friends-listbox .Fast-seekfriend .show-more a:hover{text-decoration:none;background:#F3FAFF}
+.friends-main .friends-listbox .Fast-seekfriend .border-bottom{border-bottom:1px #CEE1EE solid;font-size:0;line-height:0;margin:10px 0}
+.friends-main .friends-listbox .Fast-seekfriend a.PerfectMaterial{width:150px;margin:30px auto;display:block}
+
+
+.ModifyGroup-list{position:absolute;width:160px;border:1px #84ABC6 solid;right:0;background-color:#fff;padding:10px 0;z-index:1000;display:none}
+.ModifyGroup-list ul{}
+.ModifyGroup-list li{margin-bottom:0;overflow:hidden;}
+.ModifyGroup-list li a{width:160px;height:23px;line-height:23px;display:block;padding-left:29px;background:url(http://a.xnimg.cn/imgpro/icons/groud-input.png) no-repeat 10px -26px;outline:0}
+.ModifyGroup-list li a:hover{background-color:#F0F5F8;text-decoration:none}
+.ModifyGroup-list li.SelectGroup a{background:url(http://a.xnimg.cn/imgpro/icons/groud-input.png) no-repeat 10px 6px}
+.ModifyGroup-list li input{width:110px;margin-left:10px;height:14px;border:1px #84ABC6 solid;background:#FFFFFF url(http://a.xnimg.cn/imgpro/bg/search_shadow_friendslist.png) repeat-x left top}
+
+/**Control Fillet**/
+.fillet-tips{background-color:#F0F5F8;border:1px solid #B8D4E8;position:relative;clear:both}
+.fillet-tips .j1,.fillet-tips .j2,.fillet-tips .j3,.fillet-tips .j4{background:url(http://a.xnimg.cn/imgpro/bg/friends_fillet.png) 0 0 no-repeat;width:5px;height:5px;line-height:0;position:absolute;line-height:50px;overflow:hidden}
+.fillet-tips .j1 {background-position:0 0;left:-1px;margin-top:-1px}
+.fillet-tips .j2 {background-position:-7px -12px;right:-1px;margin-top:-1px}
+* html .fillet-tips .j2 {right:0px;}
+.fillet-tips .j3 {background-position:0 -7px;left:-1px;margin-top:-4px}
+.fillet-tips .j4 {background-position:-7px -19px;right:-1px;margin-top:-4px}
+* html .fillet-tips .j4 {right:0px;}
+.fillet-tips .fillet-content{padding:5px 5px 4px 5px;height:25px;overflow:hidden}
+.fillet-tips .fillet-content .ManagementGroup{float:left}
+.fillet-tips .fillet-content .ManagementGroup li{float:left;border-bottom:1px #E5EAED solid;margin-right:10px;}
+.fillet-tips .fillet-content .ManagementGroup li a{display:block;padding:4px 5px;font-size:12px;text-decoration:none;background:url(http://a.xnimg.cn/imgpro/bg/group-btn-bg.png) repeat-x 0 0;border:1px #B6B6B6 solid;color:#555;font-weight:bold;line-height:12px}
+.fillet-tips .fillet-content .ManagementGroup li a.click{}
+.fillet-tips .fillet-content .ManagementGroup li a.click-gray{border:1px #CDCDCD solid;background-color:#EDEEEF;color:#B2B2B2;padding:4px 5px;font-weight:bold;cursor:default;}
+* html .fillet-tips .fillet-content .ManagementGroup li a{display:block;padding:4px 5px 3px 5px}
+.fillet-tips .fillet-content .ManagementGroup form{}
+.fillet-tips .fillet-content .ManagementGroup form dl:after{content: ".";display:block;clear:both;height:0;visibility:hidden;}
+.fillet-tips .fillet-content .ManagementGroup form dl{display:inline-block;width:100%}
+* html .fillet-tips .fillet-content .ManagementGroup form dl{width:50%}
+.fillet-tips .fillet-content .ManagementGroup form dt,.fillet-tips .fillet-content .ManagementGroup form dd{float:left;display:block;height:22px;line-height:22px}
+.fillet-tips .fillet-content .ManagementGroup form dt{width:86px;text-align:right;font-weight:bold;color:#808080;margin-right:5px}
+.fillet-tips .fillet-content .ManagementGroup form dd{}
+.fillet-tips .fillet-content .float-right{height:22px;margin:auto 0;padding-top:3px}
+.fillet-tips .fillet-content .border-left{border-left:1px #CEE1EE solid;padding:10px;margin-top:5px}
+.fillet-tips .fillet-content a.search-Conditions{float:left;display:block;background:url(http://a.xnimg.cn/imgpro/bg/search-title.png) repeat-x left bottom;margin-right:10px}
+.fillet-tips .fillet-content a.search-Conditions span{display:block;background:url(http://a.xnimg.cn/imgpro/bg/search-title.png) repeat-x right bottom;padding:3px 25px 3px 6px;margin-left:3px;height:12px;line-height:12px;text-decoration:none;color:#333}
+.fillet-tips .fillet-content .search-Conditions:hover{background-position:left top;text-decoration:none}
+.fillet-tips .fillet-content .search-Conditions span:hover{background-position:right top;text-decoration:none}
+.fillet-tips .fillet-content .float-none{float:none}
+
+/**Control Fillet-tips FriendsGroup-color**/
+.FriendsGroup-color{background-color:#FEEEB2;border:1px solid #FFCE8B;position:relative;clear:both}
+.FriendsGroup-color .j1,.FriendsGroup-color .j2,.FriendsGroup-color .j3,.FriendsGroup-color .j4{background:url(http://a.xnimg.cn/imgpro/bg/FriendsGroup-color.png) 0 0 no-repeat;width:5px;height:5px;line-height:0;position:absolute;line-height:50px;overflow:hidden}
+.FriendsGroup-color .j1 {background-position:0 0;left:-1px;margin-top:-1px}
+.FriendsGroup-color .j2 {background-position:-7px -12px;right:-1px;margin-top:-1px}
+* html .FriendsGroup-color .j2 {right:0px;left:634px}
+.FriendsGroup-color .j3 {background-position:0 -7px;left:-1px;margin-top:-4px}
+.FriendsGroup-color .j4 {background-position:-7px -19px;right:-1px;margin-top:-4px}
+* html .FriendsGroup-color .j4 {right:0px;left:634px}
+.FriendsGroup-color .fillet-content{padding:5px 5px 4px 5px}
+.FriendsGroup-color .fillet-content .ManagementGroup{float:left}
+.FriendsGroup-color .fillet-content .ManagementGroup li{float:left;border-bottom:1px #E5EAED solid;margin-right:10px;}
+.FriendsGroup-color .fillet-content .ManagementGroup li a{display:block;padding:4px 5px;font-size:12px;text-decoration:none;background:url(http://a.xnimg.cn/imgpro/bg/group-btn-bg.png) repeat-x 0 0;border:1px #B6B6B6 solid;color:#555;font-weight:bold;line-height:12px}
+.FriendsGroup-color .fillet-content .ManagementGroup li a.click{}
+.FriendsGroup-color .fillet-content .ManagementGroup li a.click-gray{border:1px #CDCDCD solid;background-color:#EDEEEF;color:#B2B2B2;padding:4px 5px;font-weight:bold;cursor:default;}
+* html .FriendsGroup-color .fillet-content .ManagementGroup li a{display:block;padding:4px 5px 3px 5px}
+.FriendsGroup-color .fillet-content .ManagementGroup form{}
+.FriendsGroup-color .fillet-content .ManagementGroup form dl:after{content: ".";display:block;clear:both;height:0;visibility:hidden;}
+.FriendsGroup-color .fillet-content .ManagementGroup form dl{display:inline-block;width:100%}
+* html .FriendsGroup-color .fillet-content .ManagementGroup form dl{width:50%}
+.FriendsGroup-color .fillet-content .ManagementGroup form dt,.FriendsGroup-color .fillet-content .ManagementGroup form dd{float:left;display:block;height:22px;line-height:22px}
+.FriendsGroup-color .fillet-content .ManagementGroup form dt{width:86px;text-align:right;font-weight:bold;color:#808080;margin-right:5px}
+.FriendsGroup-color .fillet-content .ManagementGroup form dd{}
+.FriendsGroup-color .fillet-content .float-right{height:22px;margin:auto 0;padding-top:3px}
+.FriendsGroup-color .fillet-content .border-left{border-left:1px #CEE1EE solid;padding:10px;margin-top:5px}
+.FriendsGroup-color .fillet-content a.search-Conditions{float:left;display:block;background:url(http://a.xnimg.cn/imgpro/bg/search-title.png) repeat-x left bottom;margin-right:10px}
+.FriendsGroup-color .fillet-content a.search-Conditions span{display:block;background:url(http://a.xnimg.cn/imgpro/bg/search-title.png) repeat-x right bottom;padding:3px 25px 3px 6px;margin-left:3px;height:12px;line-height:12px;text-decoration:none;color:#333}
+.FriendsGroup-color .fillet-content .search-Conditions:hover{background-position:left top;text-decoration:none}
+.FriendsGroup-color .fillet-content .search-Conditions span:hover{background-position:right top;text-decoration:none}
+.FriendsGroup-color .fillet-content .float-none{float:none}
+
+/* VIP Icon by jingwei.li */
+.vip-level {padding-left:0;line-height:12px;display:inline-block;width:5px;padding-top:3px;padding-right: 7px;height:16px;background:url(http://a.xnimg.cn/imgpro/icons/vip_f.gif) no-repeat left 3px;font-size: 10px;font-weight:bold;vertical-align:top;color: #000;text-decoration:none;}
+
+.vip-level.expired {background-image: url(http://a.xnimg.cn/imgpro/icons/vip-level-expired.gif);}
+
+/*friend.css line 35*/
+/*friend.css line 43*/
+.friends-main .friends-listbox .UserList li div.ModifyGroup a.ModifyGroup-nav {outline:0;}
+.friends-main .friends-listbox .UserList li p.UserInformation{}
+.friends-main .friends-listbox .UserList li p.UserInformation .groups {color:#888888;display:block;height:20px;overflow:hidden;}
+.pagerpro li a{font-family:Arial}
+/* .n-f-s .function span {display:none;} */
+.selectfilter input{width:119px;}
+/* message page style*/
+.wab-box{background:#F8F8F8;border-top:1px solid #DEDEDE;float:left;width:550px;padding:5px;}
+.wab-tab{margin-bottom:5px;}
+.wab-search{float:left;}
+.wab-search .textbox{height:17px;line-height:17px;padding:2px 5px;width:170px;border:1px solid #8B8B8B}
+.wab-search .searchbtn{border:none;height:23px;width:25px;text-indent:-9999em;cursor:pointer;margin-left:-10px;background:url(http://a.xnimg.cn/imgpro/icons/friend-icons4.png) 0 -308px no-repeat; cursor:default;}
+.wab-btn{float:right;margin-right:-5px;position:relative;}
+a.gray-btn{border:1px solid #8B8B8B;background:url(http://a.xnimg.cn/imgpro/button/gray-btn.png) no-repeat;height:21px;line-height:21px;color:#333!important;text-align:center;display:block;*zoom:1;*display:inline;margin-right:5px; outline:none;float:left;}  /* 这里做一个临时的兼容 */
+a.mouse-down{background:#888888;font-weight:bold;}
+a:hover.gray-btn{text-decoration:none;background:#FFFFFF;}
+a.gray-btn span{padding:0 8px;}
+.wab-btn a.selected{font-weight:bold;cursor:default;}
+.wab-content{border:1px solid #DDD;background-color:#FFF; height:530px;}
+.wab-list{position:relative; float:left;width:200px;height:530px; overflow-y:auto; overflow-x:hidden; *zoom:1; border-right:1px solid #DDD;*margin-bottom:-10px}
+.wab-list h4 a{display:block;color:#888;padding:5px 20px;text-decoration:none;}
+.wab-list h4 a:hover,.wab-list h4 a.hover{background-color:#dddddd;} 
+.wab-list h4 .rollup{background:url(http://s.xnimg.cn/imgpro/friend/arrow-right-lightgray.gif) no-repeat scroll 5px 50% transparent;zoom:1;}
+.wab-list h4 .show{background:url(http://s.xnimg.cn/imgpro/friend/arrow-down-lightgray.gif) no-repeat scroll 3px 50%;zoom:1;}
+.wab-list h4 span{font-weight:normal;padding:0 5px;}
+.wab-list ul{border-bottom:1px solid #ECECEC;}
+.wab-list .check,
+.wab-list .request,
+.wab-list .select .check,
+.wab-list .change,
+.wab-list .select .change,
+.wab-list .msn,
+.wab-list .invite,
+.wab-list .select .msn{position:relative; float:right;width:16px;height:20px;display:block;background:url(http://a.xnimg.cn/imgpro/icons/friend-icons4.png) left -405px no-repeat}
+.wab-list .change{background-position:0 -432px; top:2px;}
+.wab-list .invite{background-position:0 -380px; top:2px;}
+.wab-list .select .change{background-position:-26px -357px}
+.wab-list .msn{background-position:0 -382px;position:relative;top:2px;}
+.wab-list .select .msn{background-position:0 -357px}
+.wab-detail{width:345px;float:left;}
+.wab-detail span.tools{color:#C7C7C7;display:block;float:right;height:21px;margin-right:12px;}
+.wab-detail .import-head{background:none repeat scroll 0 0 #F2F9FE;border-bottom:1px solid #CADAEA;margin:13px;padding:5px 12px 15px;}
+.wab-detail .import-head h3{color:#2B79BA;}
+.wab-detail .import-head ul{list-style:circle inside;margin-top:10px;}
+/* == 导入联系人表单 == */
+.import-contact{margin:13px;}
+.import-contact dt{font-weight:bold;margin-bottom:8px;line-height:16px;}
+.import-contact dt.border-top{border-top:1px solid #E6E6E6;margin-top:25px;padding-top:15px;line-height:16px;}
+.import-contact dt.import-msn{padding-left:27px;background:url(http://s.xnimg.cn/imgpro/icons/msn.gif) no-repeat bottom left;}
+.import-contact dt.import-email{padding-left:27px;background:url(http://s.xnimg.cn/imgpro/icons/msg.gif) no-repeat bottom left;}
+.import-contact dd{line-height:30px;padding-left:15px;}
+.import-contact .select-short{width:80px;}
+.import-contact input.input-text{width:110px;}
+.import-contact input.long{width:208px;}
+.import-contact dd.btn-area{padding-left:75px;margin:8px 0;}
+.wab-detail .personal-info .description{line-height:35px;margin:0 10px;}
+.wab-detail .personal-info .description .success{background:url("http://s.xnimg.cn/imgpro/icons/right.png") no-repeat scroll left center transparent;color:#000000;font-weight:bold;padding-left:21px;padding-right:8px;}
+.wab-detail .personal-info h4{font-size:13px;margin:10px 10px 15px;}
+.wab-detail .personal-info .invite_friendlist{background:none repeat scroll 0 0 #FFFFFF;margin:10px;overflow:hidden;width:325px;}
+.wab-detail .personal-info .resulttitle{line-height:27px;background-color:#EDEDED;border-color:#CCCCCC;border-style:solid;border-width:1px;font-size:12px;font-weight:normal;padding:2px 0 2px 3px;}
+.wab-detail .personal-info .resulttitle .checkbox{padding:5px 9px 5px 3px;}
+.wab-detail .personal-info .invite_friendlist .resultbox{overflow-x:hidden;overflow-y:scroll;width:100%;height:360px;border-bottom:1px solid #CCCCCC;border-left:1px solid #CCCCCC;border-right:1px solid #CCCCCC;}
+.wab-detail .personal-info table{width:320px;}
+.wab-detail .personal-info table td{border-bottom:1px solid #CCCCCC;padding:12px 5px;vertical-align:middle;border-collapse:collapse;border-collapse:collapse;}
+.wab-detail .personal-info .confirm-friends{margin:10px;}
+.wab-detail .personal-info .confirm-friends .jumpover{background-color:#F0F0F0;border-color:#FFFFFF #848484 #848484 #FFFFFF;border-style:solid;border-width:1px;color:#333333;cursor:pointer;font-size:12px;padding:2px 15px;text-align:center;}
+.wab-list .qq,
+.wab-list .select .qq,
+.wab-list .mobile,
+.wab-list .select .mobile{width:78px;height:20px;overflow:hidden;padding-left:12px;float:right;background:url(http://a.xnimg.cn/imgpro/icons/friend-icons4.png) left -405px no-repeat}
+.wab-list .qq{background-position:-33px -430px}
+.wab-list .select .qq{background-position:-33px -581px}
+.wab-list .mobile{background-position:-34px -534px}
+.wab-list .select .mobile{background-position:-34px -557px}
+.wab-list .check{background-position:-28px -380px}
+.wab-list .request{background-position:0 -484px}
+.wab-list .select .request{background-position:0 -457px}
+.wab-list li{cursor:pointer;line-height:26px;height:26px;padding:0 5px;white-space:nowrap;vertical-align:middle;}
+.wab-list li.no-result{cursor:default;}
+.wab-list li.none{padding-left:10px; color:#888888;}
+.wab-list li a{outline:none;color:#333!important;}
+.wab-list li:hover,.wab-list li.hover{background-color:#E3EEF9;text-decoration:none;}
+.wab-list li a:hover{text-decoration:none;}
+.wab-list li.select,
+.wab-list li.select a{cursor:default;color:#FFF!important;background-color:#548BC6;}
+.wab-list li.select .name{color:#FFF!important;font-weight:bold;}
+.wab-list li .del{display:none;float:right;position:relative;top:2px;height:20px;width:16px;background:url(http://a.xnimg.cn/imgpro/friend/delete-icon.png) no-repeat center 8px;}
+.wab-list .span{float:left;padding-left:3px;}
+.wab-list .name{padding-left:3px;}
+.wab-cards{padding:10px 10px 0;}
+.wab-cards-detail{line-height:22px;border:1px solid #C7C7C7;padding:10px;}
+.wab-cards-detail dt{font-size:18px;font-weight:bold;margin-bottom:13px;padding-bottom:3px;border-bottom:1px solid #C7C7C7;width:215px;}
+.wab-cards-detail strong{color:#666;margin-right:10px;text-align:right;width:38px;display:inline-block;}
+.wab-cards-detail span img{margin-top:5px;}
+.wab-cards-detail dd input,.wab-cards-detail dd textarea,.wab-cards-detail dt input{border:1px solid #AAA;padding:2px;height:16px;width:125px;margin-bottom:5px;}
+.wab-cards-detail dd textarea{height:50px}
+.wab-cards-detail dd .long{width:248px}
+.wab-cards-head{float:right;margin:10px 5px;}
+.wab-cards-head a.head{display:block;width:75px;height:75px;background:transparent url() center center no-repeat;}
+/*.wab-cards-head p{margin-top:5px}
+.wab-cards-head p img{margin-right:3px;}*/
+.wab-card-opr{margin:0 10px;padding:10px 0; border-top:2px solid #DDDDDD;}
+.wab-card-save{margin:10px 0 10px 55px;}
+.wab-card-save label{margin-right:10px}
+.wab-card-save .input-submit{margin-right:10px;height:23px;margin-top:-1px;float:left;}
+.wab-card-save p{margin-bottom:10px}
+.wab-tips{position:absolute;right:-1px;top:-999999px; border:1px solid #E1C579;width:72px; text-align:center; background:#FFFBC1;line-height:20px;padding:0 3px;color:#333!important;}
+a.change:hover .wab-tips, a.msn:hover .wab-tips, a.check:hover .wab-tips, a.del:hover .wab-tips, a.request:hover .wab-tips,  a.invite:hover .wab-tips{top:-23px;}
+.change:hover, .msn:hover, .check:hover, .del:hover, .request:hover, .invite:hover{zoom:1;}
+.wab-arrow{position:absolute;bottom:-7px;_bottom:-14px;right:3px;background:url(http://a.xnimg.cn/imgpro/arrow/tip-arrow-down.png) no-repeat;width:11px;height:7px;}
+.wab-intro{padding:10px;margin:10px 10px 0;background:#F3FAFF;border-bottom:1px solid #CEE1EE;}
+.wab-intro h1{color:#2A79BA;margin-bottom:10px;}
+.wab-intro li{background:url(http://a.xnimg.cn/imgpro/icons/friend-icons4.png) -28px -405px no-repeat;padding-left:20px;line-height:20px;}
+.wab-cards-detail .f-gray{margin-right:20px;}
+.back-list{margin:10px 0; text-align:center; font-weight:bold;}
+.back-list a{padding-left:8px; background:transparent url(http://a.xnimg.cn/imgpro/icons/angle-left.png) 0 center no-repeat;}
+.f-gray{color:#888}
+.change-tip{background:#E3EEF8;padding:5px 8px; margin-bottom:10px;}
+.change-check{background:url(http://a.xnimg.cn/imgpro/icons/yes.png) no-repeat;margin:0 0 0 17px; padding-left:20px;width:70px;float:left;}
+.change-btn-icon,
+.card-btn-icon,
+.import-btn-icon,
+.inviteTA-icon{background:url(http://a.xnimg.cn/imgpro/icons/friend-icons4.png) -20px -464px no-repeat;padding-left:26px !important;}
+.card-btn-icon{background-position:-22px -490px; *background-position:-22px -492px;_background-position:-22px -490px;}
+.inviteTA-icon{background-position:5px -338px; *background-position:-22px -492px;_background-position:-22px -490px;}
+.import-btn-icon{background-position:-22px -516px}
+.invite-btn-icon{background:url(http://a.xnimg.cn/imgpro/icons/friend-icons4.png) 5px -338px no-repeat;padding-left:26px !important;}
+.import-wab dl{border-bottom:1px solid #E6E6E6;margin:10px;padding:10px 20px 20px;}
+.import-wab dt{font-weight:bold;margin-bottom:15px;}
+.import-wab dd{margin-bottom:10px}
+.import-wab dd label{width:60px;display:inline-block;}
+.import-wab dt img{vertical-align:middle;margin-right:3px;}
+.import-wab .input-text{width:160px}
+.import-list{margin-top:10px;}
+.all-check{background:#EEE;border:1px solid #CCC;padding:5px 10px;}
+.import-list ul input{margin-top:20px;*margin-top:15px;float:left;margin-right:10px;}
+.import-list ul{margin-bottom:10px;border:1px solid #CCC;border-top:none;height:300px;overflow:auto;_margin-left:-3px}
+.import-list li{padding:10px;border-bottom:1px solid #DDD;height:50px;}
+.import-done {margin:10px;}
+.import-done .head-pic{height:50px;width:50px;overflow:hidden;float:left;margin-right:10px;}
+.import-done .person-info{padding-top:6px}
+.import-done p{line-height:18px;}
+.frid-list li{letter-spacing:0;overflow:hidden;width:60px;margin:10px 0 10px 10px;display:inline-block;_position:relative;*display:inline;*zoom:1}
+.frid-list li .avatar {border:1px solid #FFF;cursor:pointer;display:block;height:50px;overflow:hidden;padding:5px;position:relative;vertical-align:top;width:50px;}
+.frid-list li .select{background:#83ACC6}
+.frid-list li .select img{position:absolute;clip:rect(0px 50px 50px 0px);display:block}
+.frid-list li .avatar span {display:block;border:1px solid #1C5180;width:10px;height:10px;_font-size:0px;position:absolute;bottom:5px;right:5px;cursor:pointer;background:url(http://xnimg.cn/imgpro/guide/input-bg.gif) no-repeat 0 top}
+.frid-list li .name {text-align:center;display:block;margin-top:1px;font-weight:bold;height:16px;text-align:center;white-space:nowrap;}
+.frid-list li .select span{background:url(http://xnimg.cn/imgpro/guide/input-bg.gif) no-repeat 0 bottom}
+.privacy_set{margin-left:20px;}
+.privacy_set label{display:block;margin:10px 0;}
+.privacy_set label span{display:inline-block;width:50px;text-align:right;*display:inline;*zoom:1;}
+/* zi dong fen zu  chuanye.wang */
+.res-action{float:right;}
+.res-title{padding-bottom:3px;border-bottom:4px solid #F2F5F7;}
+.res-title-border{border-bottom:1px solid #E3EEF8;}
+.res-main ul li{border-bottom:1px solid #E3EEF8;zoom:1;overflow:hidden;}
+.res-main ul li h3{background:url(http://a.xnimg.cn/imgpro/bg/upadn.png) no-repeat 0 -24px;height:30px;line-height:30px;overflow:hidden;padding-left:25px;cursor:pointer;}
+.res-main ul li h3:hover,.res-main ul li h3.expand{background-color:#F1F5F9;}
+.res-main ul li h3.expand{background-position:0 6px;}
+.innerfrds{zoom:1;overflow:hidden;margin:5px 5px 15px 25px;}
+.innerfrds .oneofthem{float:left;zoom:1;padding-right:6px;margin:0 5px 10px 0;background:url(http://a.xnimg.cn/imgpro/bg/autogroupbg1.png) no-repeat right 0;}
+.innerfrds .oneofthem .frd-name{display:block;padding:5px 25px;border:1px solid #B5D1E8;background:#fff;}
+
+#friendSearch input{width:132px;}
+
+.Fast-seekfriend a.active{color:#555555;font-weight:bold!important;}
+.choose-box fieldset.none{display:none;}
+#classMatesType{padding:0 0 10px 38px;}
+.Fast-seekfriend .group{display:none;}
+.Fast-seekfriend .showGroup{display:block;}
+
+/* ===== Address Guide 通讯录用户引导 ===== */
+#bobContainer{
+	position: absolute;
+	width: 100%;
+	height:0;
+	top:0;
+}
+#bobContainer div.bobBox{
+	position:absolute;
+	background-color: #F3FAFF;
+	_zoom:1;
+}
+#bobContainer div.bobBox span.bob-root{
+	position:absolute;
+	display:block;
+}
+#bobContainer div.bobBox div.bob-content{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position:relative;
+	z-index:1;
+}
+#bobContainer div.bobBox div.bob-shadow{
+	position:absolute;
+	z-index:0;
+	border-style: solid;
+}
+
+/* tip 询问用户是否开启引导流程 */
+div.bobBox span.close{
+	display:block;
+	height:11px;
+	width:11px;
+	position:absolute;
+	right:20px;
+	top:10px;
+	background: url(http://s.xnimg.cn/imgpro/friend/guide-close.png) no-repeat;
+	cursor:pointer;
+}
+
+div.bobBox div.inner{
+	height:100%;
+	width:100%;
+	background:#E6F3FC;
+}
+div.bobBox strong.title{
+	font-size: 13px;
+	line-height: 24px;
+	display:block;
+	padding-top:12px;
+}
+div.bobBox div.center{
+	margin: 0 20px;
+}
+div.bobBox ul.info{
+	line-height:18px;
+	list-style:circle inside none;
+	font-size: 12px;
+	margin: 5px 0px;
+}
+
+div.bobBox span.gray-text{
+	display: block;
+	line-height: 30px;
+	color:#808080;
+	font-size: 12px;
+}
+div.bobBox input.button{
+	background-color:#005EAC !important;
+	background-image:none !important;
+	border-color:#B8D4E8 #124680 #124680 #B8D4E8 !important;
+	border-style:solid;
+	border-width:1px;
+	color:#FFFFFF;
+	font-size: 12px;
+	padding: 2px 6px;
+}
+div.bobBox input.start{
+	float:right;
+}
+div.bobBox div.step1 .content-body{
+	border-top:1px solid #D5E7F2;
+	margin:auto;
+	padding-top:12px;
+	width:367px;
+}
+div.bobBox div.step1 input.text{
+	border:1px solid #A0BEDC;
+	height:20px;
+	width:125px;
+}
+div.bobBox div.step1 input.long{
+	width: 310px;
+}
+div.bobBox div.step1 textarea{
+	width: 310px;
+	height:45px;
+	padding:0;
+}
+div.bobBox div.step1 table td strong{
+	color:#808080;
+	font-size: 12px;
+}
+
+div.bobBox div.step2 div.friendSelectorBox{
+	width: 460px;
+	margin: auto;
+	background: #E6F3FC;
+	border-top:1px solid #D5E7F2;
+	padding-top: 5px;
+}
+div.selector_box div.selector{
+	height: 220px;
+}
+div.bobBox div.step2 div.selector{
+	height: 148px;
+}
+div.bobBox div.step2 .button{
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+	height:30px;
+	margin:10px auto;
+	width:80px;
+}
+
+div.bobBox div.step3 .select-short{width: 108px;}
+div.bobBox div.step3 .input-text{width: 124px;}
+div.bobBox div.step3 input.long{width: 250px;}
+div.bobBox div.step3 .import-contact{margin:0;}
+div.bobBox div.step3 dt{border-top: #CEE1EE 1px solid;padding-top:5px; margin:0;}
+div.bobBox div.step3 div.content-body{
+	width:360px;
+	margin:auto;
+}
+/** add message popup **/
+.address-list{
+	margin:-10px;
+	background:#F6FBFF url(http://a.xnimg.cn/imgpro/friend/left-border.png) repeat-y 365px 0;
+	}
+.left-mod{
+	padding:15px;
+	float:left;
+	width:335px;
+	background-color:#FFF;}
+.
+.left-mod div.nav-tabs{
+	margin-bottom:30px;
+	}
+.left-mod div.nav-tabs ul.tabs li a{
+	padding:0 25px}
+.steps{
+	font-size:16px;
+	color:#295200;
+	font-weight:bold;
+	margin-bottom:20px;}
+.steps .num{
+	color:#FFF;
+	background:url(http://a.xnimg.cn/imgpro/friend/steps.png) no-repeat;
+	margin-right:10px;
+	height:27px;
+	width:27px;
+	display:inline-block;
+	text-align:center;
+	line-height:27px;}
+.pop-pic{
+	padding:35px 10px 10px 15px;
+	float:right;
+	position:relative;}
+.info-box dt{
+	display:inline-block;
+	*zoom:1;
+	*display:inline;
+	margin-right:5px;
+	text-align:right;
+	width:5em;
+	font-weight:bold;
+	color:#666;
+	vertical-align:middle;
+	line-height: 17px;
+	}
+.info-box dd{
+	display:inline-block;
+	*zoom:1;
+	*display:inline;
+	margin-bottom:10px;
+	width:270px;
+	}
+.info-box dd .textbox{
+	width:190px;
+	padding:3px;
+	height:18px;
+	line-height:18px;
+	margin-right:5px;
+	border:1px solid #A5A5A5}
+.info-box select{margin-right:5px; width:95px; padding:3px;height:26px;line-height:18px;border:1px solid #A5A5A5}
+.info-box dd .short{width:125px}
+.info-box dd .long{width:142px}
+.left-mod .input-submit{
+	padding: 5px 16px;
+	font-size: 14px;
+}
+.success-box{
+	background-color:#F5F5F5;
+	padding:40px 20px;
+	width:315px;}
+.success-tip{
+	font-size:14px;
+	margin-bottom:20px;
+	line-height:1.5em;
+	}
+.tip-icon{
+	background:url(http://a.xnimg.cn/imgpro/friend/success-tip.png) no-repeat;
+	height:55px;
+	width:57px;
+	float:left;
+	margin-right:10px}
+.pass_ico,
+.stop_ico{
+	background:url(http://a.xnimg.cn/imgpro/friend/right.png) no-repeat center;
+	display:inline-block;
+	height:25px;
+	width:15px;
+	vertical-align:middle;
+	float: right;
+}
+.stop_ico{background:url(http://a.xnimg.cn/imgpro/friend/stop.png) no-repeat;}
+.tip-right{margin:0 0 0 17px; padding-left:20px;}
+.operate-bar{text-align:center;}
+div.left-mod div.importer{
+	margin-top: 20px;
+}
+.info-box p.allDone{
+	margin:63px auto auto;
+	width:130px;
+}
+.info-box p.allDone span.strong{
+	font-weight: bold;
+	padding-left: 5px;
+}
+.info-box p.allDone input.input-submit{
+	font-size:13px;
+	padding:2px 22px;
+}
+.info-operate img,
+.operate-bar img{margin-right:5px;vertical-align:top;}
+.info-operate{margin-left:65px;}
+.info-operate p{margin-top:20px}
+p.loaded{
+	margin-top:10px;
+	color:#666;
+	background:url("http://a.xnimg.cn/imgpro/icons/load.gif") no-repeat scroll 0 0 transparent;
+	line-height:26px;
+	margin-left:50px;
+	padding-left:30px;
+}
+.info-operate p.loaded img{margin-right:5px;vertical-align:middle}
+.contact-box{
+	background-color:#F5F5F5;
+	margin-bottom:10px;
+	}
+.contact-box p{padding:8px 10px}
+.contact-box ul{
+	height:160px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	width:333px;
+	border-left:1px solid #CCC;
+	border-right:1px solid #CCC;}
+.contact-box ul li{
+	padding:8px 10px;
+	border-bottom:1px solid #CCC;
+	white-space:nowrap;
+	overflow:hidden;
+	background-color:#FFF;
+	}
+.contact-box ul li.gray{
+	background-color:#F5F5F5}
+.contact-box ul li input{
+	margin-right: 16px;
+}
+.confirm-btn{margin-bottom:10px}
+.confirm-btn .input-submit{
+	margin-right:10px;}
+.choose-all{background-color:#EDEDED;border:1px solid #CCCCCC;padding:5px 10px}
+.overlook-old{
+	position:absolute;
+	right:10px;
+	bottom:10px;}
+.f-red{color:#C30;}
+.f-gray{color:#666}
+
+.wab-btn a.buld{
+	display:block;
+	text-decoration:none;
+	position:absolute;
+	padding-left: 13px;
+	font-size:12px;
+	right:13px;
+	top:-24px;
+	background:url(http://s.xnimg.cn/imgpro/icons/bulb.png) no-repeat left center;
+	line-height:17px;
+}
+.wab-btn a.buld img.superscript{
+	position:absolute;
+	right:-19px;
+	top:-15px;
+	display:none;
+}
+/** intro popup style**/
+.intro-popup{
+	background-color:#FFF;
+	width:850px;
+	z-index:99;
+	border:1px solid;
+	}
+.popup-main{
+	padding:30px 70px 20px;
+	}
+.popup-btn{
+	background-color:#CEE1EE;
+	padding:20px 0 30px}
+.popup-btn .taste-btn{
+	background:url(http://a.xnimg.cn/imgpro/button/taste-btn.png) no-repeat;
+	height:49px;
+	width:225px;
+	display:block;
+	margin:0 auto;
+	outline:none;
+	text-indent:-9999em;
+	}
+.popup-main h1{
+	font-size:32px;
+	text-align:center;
+	margin-bottom:30px;
+	background:url(http://a.xnimg.cn/imgpro/friend/icon1.png) 545px 0 no-repeat;}
+.popup-main h1.img2{
+	background:url("http://a.xnimg.cn/imgpro/friend/address-guidetip-title2.png") no-repeat scroll 174px 0 transparent;
+	height:61px;
+}
+.popup-main .f-orange{
+	color:#eb8828;}
+.dynamic-list{
+	float:right;
+	font-size:14px;
+	width:256px;
+	margin-right:25px;
+	}
+.dynamic-list h4{
+	color:#666;
+	font-size:12px;}
+.dynamic-list ul{
+	border:1px solid #bfbfbf;
+	border-width:1px 0;
+	padding-top:10px;
+	margin-top:5px;
+	height:242px;
+	overflow:hidden;}
+.dynamic-list img{
+	margin-bottom:-5px;}
+.dynamic-list ul p{
+	float:right;
+	width:196px;
+	}
+.dynamic-list ul li{
+	margin-bottom:10px;
+	line-height:1.6em}
+.intro-popup .close {
+	background:url(http://a.xnimg.cn/imgpro/friend/delete-icon.png) no-repeat scroll 0 0 transparent;
+	display:block;
+	height:9px;
+	position:absolute;
+	right:10px;
+	top:10px;
+	width:9px;
+	text-indent:-9999em;
+	outline:none;
+}
+/** add another message popup **/
+.new-wrap .address-list-new {margin:20px 0 10px;height:300px;}
+.new-wrap .exchange{display:none;}
+.new-wrap .address-list-new .contact-box ul{width:358px;}
+.address-list-new{background:url(http://a.xnimg.cn/imgpro/friend/left-line.png) repeat-y 78px 0;margin:-10px;}
+.new-wrap .address-list-new{background:url(http://a.xnimg.cn/imgpro/friend/left-line.png) repeat-y 370px 0;}
+.address-list-new .pop-pic{float:left;position:relative;padding:0}
+.address-list-new .left-mod{float:right;width:454px;padding:5px 9px 10px;margin-left:2px;}
+.new-wrap  .address-list-new .left-mod{float:left;width:380px;padding:5px 9px 10px;margin-left:2px;}
+.address-list-new .left-tip{height:36px;line-height:36px;padding-left:50px;background:url(http://a.xnimg.cn/imgpro/friend/success.gif) no-repeat left top;font-weight:700;font-size:15px;} 
+.address-list-new .left-tip strong{color:#008000;}
+.address-list-new .steps{border-bottom:1px solid #DDD;font-size:12px;padding-bottom:3px;margin-bottom:8px;}
+.address-list-new .steps span{display:inline-block;background-color:#E3EEF8;color:#7FA3CB;font-weight:bold;
+width:110px;height:24px;line-height:24px;margin-right:3px;text-align:center;}
+.address-list-new .steps span.selected{background-color:#7FA3CB;color:#FFF;}
+.address-list-new .info-box{width:350px;margin:30px auto 0}
+.address-list-new .next-step{bottom:10px;position:absolute;right:-465px;}
+.address-list-new .success-box{background-color:#FFF;margin:30px auto 0;}
+.address-list-new  div.nav-tabs{width:90%;}
+.address-list-new div.nav-tabs ul.tabs{margin-left:90px;_margin-left:60px}
+.address-list-new p.loaded{margin:10px auto auto;width:220px;}
+.address-list-new .tip-icon{background:url(http://a.xnimg.cn/imgpro/friend/smile.png) no-repeat;}
+.address-list-new .contact-box{background-color:#FFFFFF;margin-top:20px;}
+.address-list-new .contact-box p{padding:0 0 5px 0}
+.address-list-new .contact-box ul{width:451px;}
+.address-list-new .left-mod .input-submit{font-size:14px;_padding:8px 0px 3px;*padding:8px 0px 3px;font-weight:bold;}
+
+.address-list-new .right-mod{float:right;width:150px;overflow:hidden;}
+.right-mod ul{list-style:none;}
+.right-mod ul li{float:left;width:70px;}
+.right-mod ul li img{display:block;margin:0 auto;}
+.right-mod ul li span{display:block; height:30px;font-weight:700;text-align:center;padding-top:5px;} 
+.right-mod  p strong{margin-right:5px;}
+/* 新版引导相关CSS */
+.selector_box{
+	margin-top: 18px;
+}
+.address-list .selector_box div.selectfilter{
+	position: absolute;
+	left: 100px;
+}
+.address-list-new .selector_box div.selectfilter{
+	position: absolute;
+	left: 239px;
+}
+.selector_box div.selectfilter label{
+	display:none;
+}
+.selector_box div.selectfilter .input-text{
+	width: 165px;
+}
+.selector_box span.float-right{
+	line-height: 24px;
+}
+.selector_box span.float-right label{
+	color:#1A6EB4;
+	font-size:12px;
+	font-weight:normal;
+	padding:2px 5px;
+}
+.selector_box div.state{
+	display: none;
+}
+.selector_box p.waiting{
+	background:url("http://s.xnimg.cn/imgpro/icons/ajax-loader.gif") no-repeat left center;
+	padding-left:20px;
+}
+/*todo 还差一个搜索的放大镜icon */
+
+/* 定期分享新鲜事 float right的checkbox */
+.confirm-btn span.right-text{
+	float:right;
+}
+.confirm-btn span.right-text input.newfeed{
+	margin-right:3px;
+}
+
+/* exchange box style fixed by:qiaoyue */
+#exchangeCardFriends {
+    margin-top:8px;
+}
+
+#exchangeCardFriends .selectfilter {
+    left:239px;
+    top:30px;
+    position:absolute;
+}
+
+#exchangeCardFriends .selectfilter .input-text{
+    width:165px;
+}
+
+#exchangeCardFriends .selector{height:250px;}
+
+#new-exchange{margin-top:15px;}
+
+/* 系统推荐分组模块的样式 */
+.rightSide{
+	width: 240px;
+	float:right;
+}
+.autoGroup{
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+.autoGroup .title{
+    border-top: 1px solid #DDDDDD;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 9px;
+}	
+.autoGroup li{
+	height:30px;
+	margin-top: 5px;
+}
+.autoGroup .avatar{
+	display: block;
+	float: left;
+	background:transparent url() center center no-repeat;
+	height: 30px;
+	width: 30px;
+}
+.autoGroup .avatar img{
+	position: relative;
+	top: -10px;
+	left: -10px;
+}
+.autoGroup .buddy{
+	text-decoration: none;
+	line-height: 30px;
+	margin-left: 8px;
+}
+.autoGroup .operate{
+	float: right;
+	padding-top: 3px;
+}
+.autoGroup .abtn{
+	background: url("http://a.xnimg.cn/imgpro/bg/group-btn-bg.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #B6B6B6;
+    color: #555555;
+    display: block;
+	float: left;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 4px 10px;
+    text-decoration: none;
+	margin-left: 8px;
+}
+.autoGroup a.ModifyGroup{background:url(http://a.xnimg.cn/imgpro/bg/ModifyGroupl.png) no-repeat left bottom;width:55px;padding-left:22px;height:23px;line-height:23px;display:block;float:left;}
+.autoGroup a.select{background:url(http://a.xnimg.cn/imgpro/bg/ModifyGroupl.png) no-repeat left top}
+.autoGroup .ModifyGroup:hover{background-position:left top;text-decoration:none}
+
+
+.friendSelectorBox .selector ul li.select, .friendSelectorBox .selector ul li.select a:hover {
+    background: #3777BC;
+}
+/*右侧边栏 author: charles wu*/
+.side-item {margin-bottom: 10px;border-bottom:1px solid #CEE1EE;}
+.side-item.sales-poll{margin-bottom: 15px;}
+.side-item-header {padding:0 0 8px;text-align:right;}
+.side-item-header h4 {float:left;color:#333;}
+.side-item-header h4 span {font-weight:normal;}
+.side-item-body {}
+
+/*右侧边栏灰色模块, author: charles wu*/
+.gray-skin { border: none;}
+.gray-skin .side-item-header { background-color:#f2f2f2; border-top: 1px solid #e5e5e5; border-bottom: 1px solid #d9d9d9; height: 21px; padding: 0 5px; line-height: 21px;}
+.gray-skin .side-item-header h4 { color: #3b5998;}
+
+/*人物简略列表 author: charles wu*/
+.photo-list li{ float: left; width: 60px; margin-bottom: 10px;}
+.photo-list li a { float: left; width: 50px;}
+.photo-list li a img { width: 50px; height: 50px; overflow: hidden; margin-bottom: 4px;}
+.photo-list li a span { display: block; text-align: center;}
+
+/*200x100广告位, author:charles wu*/
+.ad-220x100 { display: block; width: 220px; height: 100px; overflow: hidden; margin-left: 10px;}
+
+/*推荐课程&用人单位 author: charles wu*/
+.app-rec .ad, .app-company .ad { margin-top: 10px;}
+/*学员明星&就业明星 author: charles wu*/
+.app-good-stu .photo-list li, .app-good-job .photo-list li { margin: 10px 0 0 0;}
+
+/**
+*好友分组弹出菜单样式
+*日期：2012-4-25
+*作者：吴春雷
+*/
+.friends_group_dialog .dialog_body {padding-bottom: 15px;}
+.friends_group_dialog .frineds_group_name,
+.friends_group_dialog .frineds_group_desc { padding: 15px 20px 0;}
+
+.friends_group_dialog .frineds_group_name label, .friends_group_dialog .frineds_group_desc label { margin-right: 5px;}
+.friends_group_dialog .frineds_group_desc label { vertical-align: top;}
+
+.friends_group_dialog .frineds_group_name input { width: 180px; height: 21px; line-height: 21px; padding: 2px; border:1px solid #bdc7d8;}
+.friends_group_dialog .frineds_group_desc textarea { width: 240px; height: 50px; border:1px solid #bdc7d8;}
+
+.friends_group_dialog .dialog_buttons {
+	padding: 10px 20px;
+	border-bottom: 1px solid #ccc;
+	background-color: #f0f5f8;
+}
+.friends_group_dialog .dialog_buttons .input-submit { float: left; margin-right: 10px;}
+.friends_group_dialog .dialog_buttons li { padding-top: 3px}
+

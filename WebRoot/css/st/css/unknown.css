@@ -1,0 +1,33 @@
+.col2-area {
+    padding: 10px 0;
+}
+.col2-area .col-left {
+    float: left;
+    width: 390px;
+}
+.col2-area .col-right {
+    float: right;
+    width: 365px;
+}
+
+.box { margin-bottom: 10px;}
+.box .hd { height: 27px; border:1px solid #93a8cb; background-color:#b3c1da;}
+.box .hd h3 { line-height:27px; padding-left: 10px; color: #fff;}
+.box .bd { background-color: #f9f9f9; border: 1px solid #e6e6e6; border-top: 0;}
+
+.naked-skin .hd { height: 21px; border: 0; border-top: 1px solid #efefef; border-bottom: 1px solid #efefef; background-color: #f7f7f7;}
+.naked-skin .hd h3 { line-height: 21px; color: #899bc1; font-size: 12px;}
+.naked-skin .bd { background: none; border: 0;}
+
+.fudao1 .bd, .fudao2 .bd { height: 104px; padding: 10px 0;}
+.fudao1 .bd { padding: 10px;}
+.fudao1 .bd p { font-size: 14px; color:#899bc1; height: 26px;}
+.fudao1 .bd p span { color: #666;}
+.fudao2 .bd { overflow: hidden;}
+.fudao2 .bd ul { width: 390px;}
+.fudao2 .bd ul li { float: left; width: 128px;}
+.fudao3 .bd { border: none;}
+.fudao3 .bd table { width: 100%;}
+.fudao3 .bd table th { height: 30px; background-color: #eff3f8; color: #899bc1; text-align: center;}
+.fudao3 .bd table th,.fudao3 .bd table td { border: 1px solid #e2e2e2;}
+.fudao3 .bd table td { padding: 8px 3px; text-align: center;}

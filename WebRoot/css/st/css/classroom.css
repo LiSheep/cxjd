@@ -1,0 +1,227 @@
+.col2-area {
+    padding: 10px 0;
+}
+.col2-area .col-left {
+    float: left;
+    width: 390px;
+}
+.col2-area .col-right {
+    float: right;
+    width: 365px;
+}
+
+.box { margin-bottom: 10px;}
+.box .hd { height: 27px; border:1px solid #4b6ea9; background-color:#8097c1;}
+.box .hd h3 { line-height:27px; padding-left: 10px; color: #fff;}
+.box .bd { background-color: #f9f9f9; border: 1px solid #d6d6d6; border-top: 0;}
+
+
+.fudao1 .bd, .fudao2 .bd { height: 104px; padding: 10px 0;}
+.fudao1 .bd { padding: 10px;}
+.fudao1 .bd p { font-size: 14px; color:#3b5998; height: 26px;}
+.fudao1 .bd p span { color: #666;}
+.renwu1 .bd { overflow: hidden; padding-top: 10px; padding-left:10px; padding-bottom: 10px;}
+.renwu1 .bd ul { width: 390px;}
+.renwu1 .bd ul li { float: left; width: 128px;}
+.fudao3 .bd { border: none;}
+.fudao3 .bd table { width: 100%;}
+.fudao3 .bd table th { height: 30px; background-color: #eff3f8; color: #899bc1; text-align: center;}
+.fudao3 .bd table th,.fudao3 .bd table td { border: 1px solid #e2e2e2;}
+.fudao3 .bd table td { padding: 8px 3px; text-align: center;}
+
+
+/*首页右侧边栏tab页引用 {{, author: charles wu*/
+.side-tabs {}
+.side-tabs .side-tabs-holder { border-bottom: 1px solid #506796;}
+.side-tabs .side-tabs-holder li { float: left; margin: 0;}
+.side-tabs .side-tabs-holder li a { float: left; padding-left: 10px;}
+.side-tabs .side-tabs-holder li a:hover,.side-tabs .side-tabs-holder li a:hover span { text-decoration: underline;}
+.side-tabs .side-tabs-holder li a span { float: left; padding-right: 10px; height: 24px; line-height: 24px; color: #3b5998; cursor: pointer;}
+.side-tabs .side-tabs-holder .active a {background: url(../images/tabs.png) no-repeat 0 -30px;}
+.side-tabs .side-tabs-holder .active a span { background: url(../images/tabs.png) no-repeat 100% -30px; color: #fff;}
+.side-tabs .side-tabs-holder .active a:hover,.side-tabs .side-tabs-holder .active a:hover span { text-decoration: none;}
+.side-tabs .side-tabs-panel { padding-top: 10px;}
+/*}}*/
+
+
+/*首页右侧推荐（老师&学员）样式引用 {{, author: charles wu*/
+
+.recognize {
+	overflow: hidden;
+	list-style: none outside none;
+	width: 1920px;
+}
+.recognize div{
+	list-style: none outside none;
+}
+.recognize .group {
+	float: left;
+	width: 240px;
+	overflow: hidden;
+}
+.recognize li,{
+	margin-bottom:5px;
+	position:relative;
+}
+.recognize p img{
+	text-align:text-bottom;
+	margin:0;
+}
+.shut-new{
+	display:none;
+	background:url(http://a.xnimg.cn/n/core/res/pymk/remove.png) 0 0 no-repeat;
+	width:13px;
+	height:13px;
+	overflow:hidden;
+	outline: 0 none;
+	position:absolute;
+	top:0;
+	right:0;
+}
+.x-to-hide  {
+	background: url(../images/home_icon.png) no-repeat scroll -63px -420px;
+    width: 14px;
+    text-decoration: none;
+    height: 14px
+}
+.x-to-hide:hover, {
+	background-position:-63px -434px;
+	text-decoration:none;
+}
+.remove-tip {
+	position:absolute;
+	top:0;
+	right:0;
+}
+.recognize li span{
+	color:#888;
+}
+.shut:hover{
+	background-position:-13px 0;
+}
+.recognize li span.headpichold{
+	float:left;
+	display:block;
+	width:50px;
+	height:50px;
+	text-align:left;
+	line-height:normal;
+	margin:0 5px 0 0;
+    overflow: hidden;
+}
+.recognize li span.headpichold a{
+	height:50px;
+	margin:0;
+}
+.recognize li span.headpichold img {
+    margin: 0;
+}
+.recognize li span a {
+	display: inline;
+	height:14px;
+	overflow:hidden;
+}
+.recognize li span a.name{
+	font-weight: bold;
+	width: 145px;
+	height: auto;
+}
+.recognize li p{
+	margin:3px 0 3px 55px;
+	*margin-left:0;
+	line-height:normal;
+}
+.comefrom {
+	border:1px solid #cee1ee;
+	padding:5px 10px;
+	background:#f3faff;
+	margin-top:5px;
+}
+.comefrom p{
+	margin-left:0!important;
+}
+.comefrom a {
+	display: inline;
+}
+.pager-back,
+.pager-forward{
+	display: inline-block;
+	zoom: 1;
+	outline: 0 none;
+	width: 20px;
+	height: 11px;
+	overflow: hidden;
+	background: url(http://a.xnimg.cn/n/core/res/pymk/pager.png) no-repeat;
+}
+.pager-back {
+	background-position: 0 -11px;
+}
+.pager-forward {
+	background-position: -20px -11px;
+}
+.pager-back:hover {
+	background-position: 0 -22px;
+}
+.pager-forward:hover{
+	background-position: -20px -22px;
+}
+.pager-back-disable,
+.pager-back-disable:hover {
+	background-position: 0 0;
+}
+.pager-forward-disable,
+.pager-forward-disable:hover {
+	background-position: -20px 0;
+}
+.profile-label {
+	color: #666;
+	font-weight: bold;
+}
+.reconnect {
+    background: url(http://a.xnimg.cn/imgpro/icons/reply-blue.gif) left center no-repeat;
+    padding-left: 18px;
+    outline: 0 none;
+}
+.reconnect-gossip{
+    clear: both;
+    background: #F0F5F8;
+    padding: 4px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #E3EEF8 #E3EEF8 #CEE1EE;
+    margin-top: 3px;
+}
+.reconnect-gossip textarea{
+    margin: 0;
+    width: 202px;
+}
+.reconnect-gossip .clearfix {
+    text-align: right;
+}
+.reconnect-gossip .clearfix label {
+    font-weight: normal;
+    color: #333;
+    margin-right: 5px;
+}
+.reconnect-gossip .clearfix label input {
+    margin-right: 2px;
+}
+
+/* 推荐UGC */
+.recognize li .ugc-type {
+	display: block;
+	color: #333;
+	margin-bottom: 2px;
+}
+.recognize li .ugc-type .icon {
+	margin-right: 5px;
+}
+.recognize li .ugc-title {
+	display: block;
+	padding-left: 18px;
+}
+/*}}*/
+.recognize-half-list .group { width: 300px;}
+.recognize-half-list .group li { float: left; width: 150px;}
+
+#calendar { height: 152px; border:1px solid #e7e7e7; background-color: #f7f7f7; margin-bottom: 10px;}

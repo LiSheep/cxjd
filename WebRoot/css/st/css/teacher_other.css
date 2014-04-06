@@ -1,0 +1,93 @@
+#mi_container{float:left;width:734px;padding:20px;}
+.module_01 .hd{border-top:1px solid #496ea8;border-bottom:1px solid #d8d9e7;height:30px;line-height:30px;background:#d8dfea;position:relative;}
+.module_01 .hd h2{color:#496ea8;padding-left:10px;}
+.h20{height:20px;font-size:0;clear:both;}
+img{vertical-align:top;}
+.algin_c{text-align:center;}
+/***********{滚动}*************/
+.productshow{position:relative;	width:734px;text-align:center;border-bottom:1px solid #d8d9e7;background:#eff3f8;}
+a.abtn{position:absolute;top:0;display:block;width:20px;height:103px;background:#eceff6 url(../teacher_img/abtn_arrow.png) no-repeat;border-left:1px solid #d8d9e7;border-right:1px solid #d8d9e7;}
+a.aleft{left:0;	background-position:-6px center;}
+a.aright{right:0;	background-position:-57px center;}
+a.agrayleft{cursor:default;	background-position:-108px center;}
+a.agrayright{	cursor:default;background-position:-166px center;}
+.productshow .scrollcontainer{width:680px;height:103px;overflow:hidden;	position:relative;margin:0 auto;}
+.productshow .scrollcontainer ul{width:20000px;position:absolute;left:0px;	top:0px;}
+.productshow .scrollcontainer li{float:left;text-align:center;width:136px;padding-top:12px;overflow:hidden;}
+.productshow .scrollcontainer li p{text-algin:center;color:#999;text-decoration:none;}
+.productshow .scrollcontainer a{display:block;height:80px;text-decoration:none;vertical-align:middle;}
+.productshow .scrollcontainer a:hover{background:#ddecf8; filter:alpha(opacity=42); opacity:0.6;border:1px solid #c5e5fb}
+
+
+/**************{btn style}*************/
+.btn_02,.btn_03,.btn_04,.btn_05,.I_btn_01,.I_btn_02{background:url(../teacher_img/btn_bg_set.png) repeat-x;height:24px;line-height:24px;text-align:center;}
+.btn_02{display:block;background-position:0 -87px;border:1px solid #999;color:#325c99;text-decoration:none;font-weight:bold;padding:0 10px;}
+.btn_02:hover{display:block;background-position:0 -87px;border:1px solid #999;color:#325c99;text-decoration:none;}
+.btn_add{position:absolute;top:2px;left:120px;}
+
+/**************{项目信息管理}*************/
+.project_list {border:1px solid #ddd;border-top:0 none;padding:25px;}
+.project_list li{float:left;margin:10px 5px;display:inline;height:120px;}
+.project_list li p{text-align:center;}
+.selectBox{position:absolute;top:2px;right:50px;}
+.projectList{padding:20px 0;}
+.projectList thead td {background:#8097C1;color: #FFFFFF; height:24px;line-height:24px; }
+.projectList td { border: 1px solid #4C6AA6; padding: 2px; text-align: center;}
+.arr_up,.arr_down{background:url(../teacher_img/arrow_down_white.png) no-repeat;width:7px;height:4px;display:inline-block;cursor:pointer;vertical-align:middle;}
+.arr_up{background-position:0 -18px;}
+
+/**************{mark style}*************/
+.mark_list li{border-bottom: 1px solid #999999;height: 100px;margin-top: 20px;position: relative;}
+.mark_list .mk_img{left: 40px;position: absolute;top: 20px;}
+.mark_list .mk_info{left: 110px;position: absolute;top: 25px;width: 200px;}
+.mark_list .mk_a1{left: 300px;position: absolute;top: 25px;display:block;}
+.mark_list .mk_a2{left: 500px;position: absolute;top: 25px;display:block;}
+.work_box{position:relative;border-bottom:1px solid #D8D9E7;height:80px;background:#EFF3F8;color:#496EA8;}
+.work_box .wk_01{position: absolute;top: 25px;left:140px;width:150px;}
+.work_box .wk_02{position: absolute;top: 25px;left:340px;}
+.work_box .wk_03{position: absolute;top: 25px;left:540px;}
+
+/**************{活动管理}*************/
+.activity_box{padding:25px 25px 0 25px;}
+.activity_hd{position:relative;height:25px;line-height:25px;padding-left:20px;border-bottom:1px solid #D8D9E7;}
+.activity_hd h2{}
+.activity_hd .more_01{position: absolute;top: 0px;right:20px;}
+.activity_bd li{ display: inline; float: left; height: 100px;margin: 10px 5px;}
+
+/**************{教学计划}*************/
+.plan_select{width:650px;margin:20px auto;}
+.plan_select th{font-weight:normal;width:120px;text-align:right;padding:2px;}
+.plan_select td{text-algin:left;padding:2px;}
+.plan_list{padding:10px;}
+.plan_list thead td{background:#8097C1;color: #FFFFFF;font-size: 14px;font-weight: bold;}
+.plan_list td {border: 1px solid #4C6AA6;padding: 2px;text-align: center;}
+.plan_list p{margin:2px 0;}
+
+/**************{pop style}*************/
+.wh400{width:400px !important;height:20px;line-height:20px;}
+.wh192{width:192px !important;height:20px;line-height:20px;}
+.wh160{width:160px !important;height:20px;line-height:20px;}
+.wh340{width:340px !important;height:20px;line-height:20px;}
+.wh300{width:300px !important;height:20px;line-height:20px;}
+.wh200{width:200px !important;height:20px;line-height:20px;}
+.popBox .hd{background:#8097c1;border:1px solid #4b6ea9;border-bottom:0 none;height:27px;line-height:27px;color:#fff;font-size:14px;font-weight:bold;padding-left:10px;}
+.popBox th,.popBox td{padding:2px;}
+.popBox .exp{border-width:0 1px 1px 1px;border-style:solid;border-color:#686868 #686868 #d6d6d6 #686868;background:#f5f5f5;padding:10px;}
+.popBox .bd{border:1px solid #686868;border-top:0 none;}
+.popBox th{width:100px;text-align:right;font-weight:normal;}	
+.popBox  textarea{resize:none; height:85px;}
+.popBox input,.popBox select{vertical-align:middle;}
+.mark_pop th{width:160px !important; }
+
+/*应用分类 2012-5-14 charles wu*/
+.application-module .app-item { padding-top: 10px;}
+.application-module .app-item h4 {border-bottom:1px solid #b5bdcc; line-height: 27px; height: 27px; padding-left: 20px; color: #fff;}
+.application-module .app-item h4 span { float: left; display: inline; height: 27px; padding-left: 10px; background: url(../images/tabs.png) no-repeat 0 0;}
+.application-module .app-item h4 span span { padding: 0 10px; 0 0; background-position: 100% 0;}
+.application-module .app-item ul { padding-top: 10px;}
+.application-module .app-item ul li { float: left; display:inline; margin: 0 10px 10px;}
+.application-module .app-item ul li a { float: left; color: #013089;}
+
+
+
+

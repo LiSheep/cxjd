@@ -1,0 +1,13 @@
+
+.pager li{
+	float:left;
+	padding:5px;
+}
+
+.error{
+	color:red;	
+}
+
+.pager .count{
+	clear:both;	
+}

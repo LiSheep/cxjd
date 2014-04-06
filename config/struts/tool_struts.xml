@@ -1,0 +1,42 @@
+<?xml 
+version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="BorrowTool" extends="cxjd-default" namespace="/">
+		<action name="*Tool" class="com.cxjd.action.tool.ToolAction" method="{1}">
+			
+			<result name="list">/modules/tool/listToolUI.jsp</result>
+			<result name="addinput">/modules/tool/addToolUI.jsp</result>
+			<result name="updateinput">/modules/tool/updateToolUI.jsp</result>
+			<result name="input">/modules/tool/{1}ToolUI.jsp</result>
+			
+			<result name="add" type="redirect">inputTool.action</result>
+			<result name="update" type="redirect">inputTool.action</result>
+			<result name="delete" type="redirect">listTool.action</result>
+			
+			<interceptor-ref name="defaultStack" />  
+			<interceptor-ref name="authorityGeneral" />  
+			<interceptor-ref name="authorityTeacher">
+				<param name="excludeMethods">list</param>
+			</interceptor-ref>
+		</action>
+		
+		<action name="*Borrow" class="com.cxjd.action.tool.BorrowToolAction" method="{1}">
+			<result name="apply">/modules/tool/applyToolUI.jsp</result>
+			<result name="list">/modules/tool/listBorrowUI.jsp</result>
+			<result name="check">/modules/tool/checkBorrowUI.jsp</result>
+			
+			<result name="delete" type="redirect">listBorrow.action</result>
+			
+			<interceptor-ref name="defaultStack" />  
+			<interceptor-ref name="authorityGeneral" />  
+			<interceptor-ref name="authorityAdmin">
+				<param name="excludeMethods">list,apply,add</param>
+			</interceptor-ref>
+		</action>
+	</package>
+		
+</struts>
